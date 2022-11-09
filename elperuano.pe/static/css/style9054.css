@@ -1,0 +1,5703 @@
+
+/* ///////// PRELOADER /////////// */
+.btn-large {
+    padding: 0 18px !important;
+}
+
+.ball-pulse > .ball:nth-child(1) {
+    -webkit-animation: scale 0.75s -0.36s infinite cubic-bezier(0.2, 0.68, 0.18, 1.08);
+    animation: scale 0.75s -0.36s infinite cubic-bezier(0.2, 0.68, 0.18, 1.08);
+}
+
+.ball-pulse > .ball:nth-child(2) {
+    -webkit-animation: scale 0.75s -0.24s infinite cubic-bezier(0.2, 0.68, 0.18, 1.08);
+    animation: scale 0.75s -0.24s infinite cubic-bezier(0.2, 0.68, 0.18, 1.08);
+}
+
+.ball-pulse > .ball:nth-child(3) {
+    -webkit-animation: scale 0.75s -0.12s infinite cubic-bezier(0.2, 0.68, 0.18, 1.08);
+    animation: scale 0.75s -0.12s infinite cubic-bezier(0.2, 0.68, 0.18, 1.08);
+}
+
+.ball-pulse > .ball:nth-child(4) {
+    -webkit-animation: scale 0.75s 0s infinite cubic-bezier(0.2, 0.68, 0.18, 1.08);
+    animation: scale 0.75s 0s infinite cubic-bezier(0.2, 0.68, 0.18, 1.08);
+}
+
+.ball-pulse > .ball {
+    background-color: #d60000 !important;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    margin: 2px;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    display: inline-block;
+}
+
+@-webkit-keyframes scale {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    30% {
+        -webkit-transform: scale(0.1);
+        transform: scale(0.1);
+        opacity: 0.7;
+    }
+
+    60% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    90% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 0.7;
+    }
+}
+
+@keyframes scale {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    30% {
+        -webkit-transform: scale(0.1);
+        transform: scale(0.1);
+        opacity: 0.7;
+    }
+
+    60% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    90% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        opacity: 0.7;
+    }
+}
+
+/* ///////// FIN PRELOADER /////////// */
+
+html {
+    line-height: 1.4
+}
+
+body {
+    display: flex;
+    min-height: 100vh !important;
+    flex-direction: column
+}
+
+.publireportaje {
+    position: absolute;
+    z-index: 20;
+    background: #C62828;
+    top: 0;
+    margin: 10px;
+    padding: 2px 8px !important;
+    color: #fff;
+}
+
+.publireportaje-nota {
+    background: #C62828;
+    display: inline-block;
+    font-size: 1.3rem;
+    margin: 7px 20px;
+    padding: 5px 18px !important;
+    color: #fff;
+}
+
+.foto6-9:before {
+    padding-top: 130%
+}
+
+.contenido a {
+    color: #b71c1d !important;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+img {
+    display: block !important;
+    width: 100%
+}
+
+cite {
+    font-size: 1.3rem
+}
+
+main {
+    display: inline
+}
+
+blockquote {
+    margin: 35px 25px 25px 25px;
+    font-size: 1.4rem;
+    font-style: normal;
+    padding: 0px;
+    border: none;
+    display: inline-block;
+}
+
+    blockquote:before,
+    blockquote:after {
+        display: inline-block;
+        vertical-align: top;
+        height: 20px;
+        line-height: 55px;
+        font-size: 3rem;
+        m
+    }
+
+    blockquote:before {
+        content: '\201C';
+        margin-right: 10px
+    }
+
+    blockquote:after {
+        content: '\201D';
+        margin-left: 10px
+    }
+
+fieldset {
+    border: none
+}
+
+label {
+    font-size: inherit
+}
+
+a:hover,
+a:focus {
+    box-shadow: none !important;
+    outline: none;
+}
+
+nav a.sidenav-trigger {
+    display: inline
+}
+
+select {
+    border: 1px solid #ccc
+}
+
+figure img {
+    position: relative;
+}
+
+    figure img[alt]:after {
+        background: #d6d6d6;
+        color: #d6d6d6;
+        background-image: url('../img/elperuano_blanco_logo.svg');
+        background-repeat: no-repeat;
+        background-size: 70%;
+        background-position: center;
+        background-position-y: 45%;
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        font-family: 'Helvetica';
+        font-weight: 300;
+        line-height: 20px;
+        text-align: center;
+        content: attr(alt);
+    }
+
+.carousel.carousel-slider .carousel-item {
+    min-height: inherit !important
+}
+
+.indicator-item {
+    margin: 0px 4px !important
+}
+
+.galeria1 {
+    padding-top: 65% !important;
+    margin-bottom: 2% !important
+}
+
+.hidden-text {
+    overflow: hidden
+}
+
+    .hidden-text div {
+        box-shadow: none;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        background: #ddd;
+        color: white !important
+    }
+
+.read-more {
+    margin: 0 !important;
+    margin-bottom: 20px !important;
+    color: #ffca57 !important;
+}
+
+    .read-more:hover {
+        color: #b5b1a3 !important
+    }
+
+    .read-more:active {
+        color: orange !important
+    }
+
+    .read-more:visited {
+        color: orange !important
+    }
+
+    .read-more:link {
+        color: orange !important
+    }
+
+.border-pickers {
+    border: 1px solid #ccc !important;
+    margin: 0 0 0 10px !important;
+    padding: 0 15px !important;
+    border-radius: 5px !important
+}
+
+[type="checkbox"]:checked + span:not(.lever):before {
+    border-right: 2px solid #B71C14;
+    border-bottom: 2px solid #B71C14
+}
+
+.modal-header {
+    background: #B71C1C !important;
+    display: block;
+    padding: 10px 20px;
+    color: #fff
+}
+
+.modal {
+    width: 50%
+}
+
+.modal2 {
+    width: 100%;
+    max-width: 460px;
+    max-height: 100%
+}
+
+::placeholder {
+    color: #909090 !important
+}
+
+.datepicker-date-display {
+    background-color: #B71C1C
+}
+
+.datepicker-cancel,
+.datepicker-clear,
+.datepicker-today,
+.datepicker-done {
+    color: #b71b1c
+}
+
+.datepicker-table td.is-today {
+    color: #b71b1c
+}
+
+.datepicker-day-button:focus {
+    background-color: rgba(161, 43, 43, 0.25)
+}
+
+.datepicker-table td.is-selected {
+    background-color: #b71b1c
+}
+
+.circle {
+    border-radius: 0
+}
+
+.slider .indicators .indicator-item.active {
+    background-color: transparent
+}
+
+.card-input {
+    height: 40px;
+    width: 100%;
+    display: inline-block;
+    margin: 15px 0 0 0
+}
+
+    .card-input input[type="text"]:not(.browser-default) {
+        height: 40px;
+        padding: 0 16px;
+        margin-bottom: 0;
+        border-bottom: none;
+        width: calc(100% - 72px)
+    }
+
+        .card-input input[type="text"]:not(.browser-default):focus:not([readonly]) {
+            border-bottom: none;
+            box-shadow: none
+        }
+
+    .card-input i {
+        line-height: 40px;
+        margin-right: 8px;
+        vertical-align: top;
+        cursor: pointer
+    }
+
+.sidenav-overlay {
+    z-index: 100 !important
+}
+
+.btn:hover,
+.btn-large:hover,
+.btn-small:hover {
+    background-color: rgba(0, 0, 0, 0.1)
+}
+
+.container {
+    width: 100% !important;
+    max-width: 1065px !important
+}
+
+.divider {
+    background-color: #a9a9a9;
+    margin: 10px 0 !important
+}
+
+.dropdown-content {
+    top: 40px !important;
+    width: 190px !important
+}
+
+.carousel .indicators .indicator-item {
+    background-color: rgba(150, 150, 150, 0.5)
+}
+
+    .carousel .indicators .indicator-item.active {
+        background-color: #af3333
+    }
+
+.sidenav {
+    width: 250px !important
+}
+
+.loading {
+    height: 40px;
+    background: #ef1b1d;
+    width: 1vh;
+    position: absolute;
+    top: 0px;
+    left: 0
+}
+
+.no-bordereadius {
+    border-radius: 0px
+}
+
+.lavel {
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.87);
+    margin: 15px 0px 10px 0px !important;
+    display: inline-block
+}
+
+.card-title2 {
+    font-size: 1.3rem;
+    line-height: 25px;
+    font-weight: 500;
+    display: inline-block;
+    margin-bottom: 7px !important
+}
+
+.card-title3 {
+    z-index: 1;
+    position: absolute;
+    color: white;
+    bottom: 0;
+    right: 0;
+    font-size: .8rem;
+    padding: 4px 8px;
+    margin: 5px 5px;
+    text-shadow: 0 0 5px black;
+    background: #00000061
+}
+
+.card-title4 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    padding: 24px
+}
+
+.nota-height {
+    height: 220px;
+    overflow: hidden
+}
+
+
+
+.dropdown-content2 {
+    display: block !important;
+    width: auto !important;
+    height: auto !important;
+    overflow-y: auto;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    top: initial !important;
+    z-index: 9999;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0
+}
+
+    .dropdown-content2:focus {
+        outline: 0
+    }
+
+    .dropdown-content2 li {
+        clear: both;
+        color: rgba(0, 0, 0, 0.87);
+        cursor: pointer;
+        margin: 8px 0;
+        text-align: left
+    }
+
+        .dropdown-content2 li:hover,
+        .dropdown-content2 li.active {
+            background-color: #eee
+        }
+
+        .dropdown-content2 li > a,
+        .dropdown-content2 li > span {
+            color: #26a69a;
+            display: block;
+            margin: 0 !important
+        }
+
+            .dropdown-content2 li > a > i {
+                line-height: inherit
+            }
+
+.print-header {
+    display: none
+}
+
+.print-footer {
+    display: none
+}
+
+.slider .slides li .caption2 {
+    color: #fff;
+    position: absolute;
+    bottom: 15%;
+    left: 15%;
+    width: 70%
+}
+
+.cursornoticia {
+    cursor: pointer;
+    margin: 0;
+    padding: 10px 0
+}
+
+    .cursornoticia:hover {
+        background: #f5f5f5
+    }
+
+.borderadius6 {
+    border-radius: 6px;
+    overflow: hidden
+}
+
+.contmenudiario {
+    height: 250px;
+    overflow: hidden;
+    box-shadow: inset -3px 12px 16px 6px #00000047
+}
+
+.contmenudiario-btn {
+    position: absolute;
+    bottom: 35px;
+    width: 100% !important;
+    max-width: 250px;
+    margin: 10px 0;
+    height: auto !important
+}
+
+.rotardiario {
+    margin: auto;
+    transform: rotate(-8deg);
+    -webkit-transform: rotate(-8deg);
+    -moz-transform: rotate(-8deg);
+    -o-transform: rotate(-8deg);
+    box-shadow: -9px 9px 10px 1px #00000040
+}
+
+.leyenda {
+    position: absolute;
+    width: 100%;
+    padding: 10px 20px 20px 20px !important;
+    bottom: 0;
+    margin: auto;
+    height: 55px
+}
+
+.navmobile {
+    height: 70px !important;
+    line-height: 70px !important;
+    padding: 10px 0;
+    opacity: 10 !important
+}
+
+.logo-elperuano-scroll img {
+    width: 120px !important;
+    margin-top: 8px;
+    padding: 0px !important
+}
+
+.elperuano_logo {
+    width: 100%;
+    max-width: 400px
+}
+
+.editoraperu_logo {
+    width: 100%;
+    max-width: 200px
+}
+
+.elperuano_blanco_logo {
+    width: 100%;
+    max-width: 180px
+}
+
+.z-depth-03 {
+    -webkit-box-shadow: -10px 10px 10px 0px rgba(0, 0, 0, 0.05), 0px 0px 0px 0px rgba(0, 0, 0, 0.05), 5px 5px 10px 0px rgba(0, 0, 0, 0.05);
+    box-shadow: -10px 10px 10px 0px rgba(0, 0, 0, 0.05), 0px 0px 0px 0px rgba(0, 0, 0, 0.05), 5px 5px 10px 0px rgba(0, 0, 0, 0.05)
+}
+
+.fixed {
+    -webkit-box-shadow: 0px 8px 10px -4px rgba(50, 50, 50, 0.33);
+    -moz-box-shadow: 0px 8px 10px -4px rgba(50, 50, 50, 0.33);
+    box-shadow: 0px 8px 10px -4px rgba(50, 50, 50, 0.33);
+    position: fixed;
+    top: 0;
+    z-index: 200;
+    max-width: 100%;
+    width: 100%;
+    left: 0;
+    text-align: center
+}
+
+.border1white {
+    border-bottom: 1px solid #fff !important
+}
+
+.border1grey {
+    border-bottom: 1px solid #ccc !important
+}
+
+.border1pxgrey {
+    border: 1px solid #ccc !important
+}
+
+.degrade {
+    background: rgba(0,0,0,0);
+    background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.81) 67%, rgba(0,0,0,0.81) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0,0,0,0)), color-stop(67%, rgba(0,0,0,0.81)), color-stop(100%, rgba(0,0,0,0.81)));
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.81) 67%, rgba(0,0,0,0.81) 100%);
+    background: -o-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.81) 67%, rgba(0,0,0,0.81) 100%);
+    background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.81) 67%, rgba(0,0,0,0.81) 100%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(0,0,0,0.81) 67%, rgba(0,0,0,0.81) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=0 );
+}
+
+.degradetitulo {
+    background: linear-gradient(#ff006500, transparent), linear-gradient(to top left, #2d63a500, transparent), linear-gradient(to top right, #0065a0, #00000036);
+    height: 600px;
+    opacity: .5;
+    position: absolute;
+    width: 100%;
+    height: 100%
+}
+
+.navnew {
+    height: 40px;
+    line-height: 40px
+}
+/* ///////////////// RESET ///////////////// */
+.zindex10 {
+    z-index: 10
+}
+
+.zindex1000 {
+    z-index: 1000
+}
+
+.zindex-10 {
+    z-index: -10
+}
+
+.overflowhidden {
+    overflow: hidden
+}
+
+.relative {
+    position: relative !important
+}
+
+.absolute {
+    position: absolute !important
+}
+
+.right0 {
+    right: 0
+}
+
+.top0 {
+    top: 0
+}
+
+.no-height {
+    height: inherit !important
+}
+
+.inlineblock {
+    display: inline-block
+}
+
+.block {
+    display: block !important
+}
+
+.inline {
+    display: inline !important
+}
+
+.none {
+    display: none !important
+}
+
+.leftalign {
+    left: 0%
+}
+
+.midle {
+    display: inline-block;
+    vertical-align: middle
+}
+
+.textalign-left {
+    text-align: left !important
+}
+
+.dawn-pink {
+    background: #eadcd1 !important
+}
+
+.width100 {
+    width: 100%
+}
+
+.max-width100 {
+    max-width: 100%
+}
+
+.heightauto {
+    height: auto !important
+}
+
+.separador {
+    border-left: 1px solid #bf360d;
+    padding-left: 20px !important
+}
+/* ///////////////// TIME LINE ///////////////// */
+.cd-horizontal-timeline a {
+    text-decoration: none
+}
+
+.cd-horizontal-timeline {
+    opacity: 0;
+    margin: 2em auto;
+    -webkit-transition: opacity 0.2s;
+    -moz-transition: opacity 0.2s;
+    transition: opacity 0.2s
+}
+
+    .cd-horizontal-timeline::before {
+        content: 'mobile';
+        display: none
+    }
+
+    .cd-horizontal-timeline.loaded {
+        opacity: 1
+    }
+
+    .cd-horizontal-timeline .timeline {
+        position: relative;
+        height: 100px;
+        width: 100%;
+        max-width: 1200px
+    }
+
+    .cd-horizontal-timeline .events-wrapper {
+        position: relative;
+        height: 100%;
+        margin: 0 40px;
+        overflow: hidden
+    }
+
+        .cd-horizontal-timeline .events-wrapper::after,
+        .cd-horizontal-timeline .events-wrapper::before {
+            content: '';
+            position: absolute;
+            z-index: 2;
+            top: 0;
+            height: 100%;
+            width: 20px
+        }
+
+        .cd-horizontal-timeline .events-wrapper::before {
+            left: 0
+        }
+
+        .cd-horizontal-timeline .events-wrapper::after {
+            right: 0
+        }
+
+    .cd-horizontal-timeline .events {
+        position: absolute;
+        z-index: 1;
+        left: 0;
+        top: 49px;
+        height: 2px;
+        background: #909090;
+        -webkit-transition: -webkit-transform 0.4s;
+        -moz-transition: -moz-transform 0.4s;
+        transition: transform 0.4s
+    }
+
+    .cd-horizontal-timeline .filling-line {
+        position: absolute;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        background-color: #bf360d;
+        -webkit-transform: scaleX(0);
+        -moz-transform: scaleX(0);
+        -ms-transform: scaleX(0);
+        -o-transform: scaleX(0);
+        transform: scaleX(0);
+        -webkit-transform-origin: left center;
+        -moz-transform-origin: left center;
+        -ms-transform-origin: left center;
+        -o-transform-origin: left center;
+        transform-origin: left center;
+        -webkit-transition: -webkit-transform 0.3s;
+        -moz-transition: -moz-transform 0.3s;
+        transition: transform 0.3s
+    }
+
+    .cd-horizontal-timeline .events a {
+        position: absolute;
+        bottom: 0;
+        z-index: 2;
+        text-align: center;
+        padding-bottom: 15px;
+        color: #383838;
+        -webkit-transform: translateZ(0);
+        -moz-transform: translateZ(0);
+        -ms-transform: translateZ(0);
+        -o-transform: translateZ(0);
+        transform: translateZ(0)
+    }
+
+        .cd-horizontal-timeline .events a::after {
+            content: '';
+            position: absolute;
+            left: 50%;
+            right: auto;
+            -webkit-transform: translateX(-50%);
+            -moz-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+            -o-transform: translateX(-50%);
+            transform: translateX(-50%);
+            bottom: -5px;
+            height: 12px;
+            width: 12px;
+            border-radius: 50%;
+            border: 2px solid #bf360d;
+            background-color: #f8f8f8;
+            -webkit-transition: background-color 0.3s, border-color 0.3s;
+            -moz-transition: background-color 0.3s, border-color 0.3s;
+            transition: background-color 0.3s, border-color 0.3s
+        }
+
+.no-touch .cd-horizontal-timeline .events a:hover::after {
+    background-color: #bf360d;
+    border-color: #bf360d
+}
+
+.cd-horizontal-timeline .events a.selected {
+    pointer-events: none
+}
+
+    .cd-horizontal-timeline .events a.selected::after {
+        background-color: #bf360d;
+        border-color: #bf360d;
+        border: 8px solid #bf360d
+    }
+
+@media only screen and (min-width: 1100px) {
+    .cd-horizontal-timeline {
+        margin: 3em auto
+    }
+
+        .cd-horizontal-timeline::before {
+            content: 'desktop'
+        }
+}
+
+.cd-timeline-navigation a {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    bottom: auto;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    height: 34px;
+    width: 34px;
+    background: #fff;
+    border-radius: 50%;
+    border: 2px solid #9c9c9c;
+    padding: .8% 1.3%;
+    color: #dfdfdf;
+    overflow: hidden;
+    color: transparent;
+    white-space: nowrap;
+    -webkit-transition: border-color 0.3s;
+    -moz-transition: border-color 0.3s;
+    transition: border-color 0.3s
+}
+
+    .cd-timeline-navigation a:hover {
+        border: 2px solid #bf360d;
+        color: #bf360d
+    }
+
+    .cd-timeline-navigation a.prev::before {
+        content: "\f053";
+        font-family: FontAwesome;
+        color: #969696;
+        font-size: 1.4rem;
+        display: block;
+        position: absolute;
+        left: -25px;
+        z-index: 10000;
+        height: 100%;
+        width: 100%;
+        text-align: center
+    }
+
+    .cd-timeline-navigation a.next::before {
+        content: "\f054";
+        font-family: FontAwesome;
+        font-size: 1.4rem;
+        display: block;
+        position: absolute;
+        left: -21px;
+        z-index: 10000;
+        color: #969696;
+        height: 100%;
+        width: 100%;
+        text-align: center
+    }
+
+    .cd-timeline-navigation a:hover:before {
+        color: #bf360d
+    }
+
+    .cd-timeline-navigation a.next {
+        right: 0
+    }
+
+.no-touch .cd-timeline-navigation a:hover {
+    border-color: #7b9d6f
+}
+
+.cd-timeline-navigation a.inactive {
+    cursor: not-allowed
+}
+
+    .cd-timeline-navigation a.inactive::after {
+        background-position: 0 -16px
+    }
+
+.no-touch .cd-timeline-navigation a.inactive:hover {
+    border-color: #dfdfdf
+}
+
+.cd-horizontal-timeline .events-content {
+    position: relative;
+    width: 100%;
+    height: 100% !important;
+    margin: 3em 0;
+    overflow: hidden;
+    -webkit-transition: height 0.4s;
+    -moz-transition: height 0.4s;
+    transition: height 0.4s
+}
+
+    .cd-horizontal-timeline .events-content li {
+        position: absolute;
+        z-index: 1;
+        width: 100%;
+        left: 0;
+        top: 0;
+        -webkit-transform: translateX(-100%);
+        -moz-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        -o-transform: translateX(-100%);
+        transform: translateX(-100%);
+        padding: 0 3%;
+        opacity: 0;
+        -webkit-animation-duration: 0.4s;
+        -moz-animation-duration: 0.4s;
+        animation-duration: 0.4s;
+        -webkit-animation-timing-function: ease-in-out;
+        -moz-animation-timing-function: ease-in-out;
+        animation-timing-function: ease-in-out
+    }
+
+        .cd-horizontal-timeline .events-content li.selected {
+            position: relative;
+            z-index: 2;
+            opacity: 1;
+            -webkit-transform: translateX(0);
+            -moz-transform: translateX(0);
+            -ms-transform: translateX(0);
+            -o-transform: translateX(0);
+            transform: translateX(0)
+        }
+
+        .cd-horizontal-timeline .events-content li.enter-right,
+        .cd-horizontal-timeline .events-content li.leave-right {
+            -webkit-animation-name: cd-enter-right;
+            -moz-animation-name: cd-enter-right;
+            animation-name: cd-enter-right
+        }
+
+        .cd-horizontal-timeline .events-content li.enter-left,
+        .cd-horizontal-timeline .events-content li.leave-left {
+            -webkit-animation-name: cd-enter-left;
+            -moz-animation-name: cd-enter-left;
+            animation-name: cd-enter-left
+        }
+
+        .cd-horizontal-timeline .events-content li.leave-right,
+        .cd-horizontal-timeline .events-content li.leave-left {
+            -webkit-animation-direction: reverse;
+            -moz-animation-direction: reverse;
+            animation-direction: reverse
+        }
+
+        .cd-horizontal-timeline .events-content li > * {
+            max-width: 800px;
+            margin: 0 auto
+        }
+
+    .cd-horizontal-timeline .events-content em {
+        display: block;
+        font-style: italic;
+        margin: 10px auto
+    }
+
+        .cd-horizontal-timeline .events-content em::before {
+            content: '- '
+        }
+
+    .cd-horizontal-timeline .events-content p {
+        display: block;
+        margin-bottom: 15px
+    }
+
+@media only screen and (min-width: 768px) {
+    .cd-horizontal-timeline .events-content em {
+        font-size: 2rem
+    }
+}
+
+@-webkit-keyframes cd-enter-right {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(100%)
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0%)
+    }
+}
+
+@-moz-keyframes cd-enter-right {
+    0% {
+        opacity: 0;
+        -moz-transform: translateX(100%)
+    }
+
+    100% {
+        opacity: 1;
+        -moz-transform: translateX(0%)
+    }
+}
+
+@keyframes cd-enter-right {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(100%);
+        -moz-transform: translateX(100%);
+        -ms-transform: translateX(100%);
+        -o-transform: translateX(100%);
+        transform: translateX(100%)
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0%);
+        -moz-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        -o-transform: translateX(0%);
+        transform: translateX(0%)
+    }
+}
+
+@-webkit-keyframes cd-enter-left {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-100%)
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0%)
+    }
+}
+
+@-moz-keyframes cd-enter-left {
+    0% {
+        opacity: 0;
+        -moz-transform: translateX(-100%)
+    }
+
+    100% {
+        opacity: 1;
+        -moz-transform: translateX(0%)
+    }
+}
+
+@keyframes cd-enter-left {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateX(-100%);
+        -moz-transform: translateX(-100%);
+        -ms-transform: translateX(-100%);
+        -o-transform: translateX(-100%);
+        transform: translateX(-100%)
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateX(0%);
+        -moz-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        -o-transform: translateX(0%);
+        transform: translateX(0%)
+    }
+}
+
+.fechero {
+    background: #b71c1d;
+    padding: 5px;
+    top: 0;
+    font-size: .7rem;
+    position: absolute;
+    z-index: 10;
+    color: white;
+    text-align: center;
+    margin: 0 10px !important
+}
+
+    .fechero:before {
+        content: "";
+        position: absolute;
+        bottom: -1em;
+        left: 0;
+        width: 0;
+        height: 0;
+        border-top: 1em solid #b71c1d;
+        border-right: 3.5em solid transparent
+    }
+
+    .fechero:after {
+        content: "";
+        position: absolute;
+        bottom: -1em;
+        right: 0;
+        width: 0;
+        height: 0;
+        border-top: 1em solid #b71c1d;
+        border-left: 3.5em solid transparent
+    }
+/* ///////////////// LINKS ///////////////// */
+a {
+    color: inherit !important
+}
+
+    a:visited.seccionrojo {
+        color: #B71C1C !important;
+        text-decoration: none;
+        -webkit-tap-highlight-color: transparent
+    }
+
+    a:hover.seccionrojo {
+        color: #777b7d !important;
+        text-decoration: none;
+        -webkit-tap-highlight-color: transparent
+    }
+
+    a:visited.titular {
+        color: rgba(0, 0, 0, 0.87) !important;
+        text-decoration: none;
+        -webkit-tap-highlight-color: transparent
+    }
+
+    a:hover.titular {
+        color: rgba(0, 0, 0, 0.70) !important;
+        text-decoration: none;
+        -webkit-tap-highlight-color: transparent
+    }
+
+    a:visited.titular-white {
+        color: #fff !important;
+        text-decoration: none;
+        -webkit-tap-highlight-color: transparent
+    }
+
+    a:hover.titular-white {
+        color: #fff !important;
+        text-decoration: none;
+        -webkit-tap-highlight-color: transparent
+    }
+
+    a:link.titular-white {
+        color: #fff !important
+    }
+
+    a:active.titular-white {
+        color: #fff !important
+    }
+
+    a:visited.bajada {
+        color: rgba(0, 0, 0, 0.87) !important;
+        text-decoration: none;
+        -webkit-tap-highlight-color: transparent
+    }
+
+    a:hover.bajada {
+        color: rgba(0, 0, 0, 0.87) !important;
+        text-decoration: underline;
+        -webkit-tap-highlight-color: transparent
+    }
+
+p.links {
+    color: rgb(183, 27, 28) !important;
+    font-weight: 600;
+    -webkit-tap-highlight-color: transparent
+}
+
+p a:visited.links {
+    color: rgb(183, 27, 28) !important;
+    text-decoration: underline;
+    -webkit-tap-highlight-color: transparent
+}
+
+p a:hover.links {
+    color: rgb(183, 27, 28) !important;
+    text-decoration: underline;
+    -webkit-tap-highlight-color: transparent
+}
+
+figure:hover img {
+    filter: opacity(.8);
+    transition: all .7s ease-in-out;
+    -webkit-transition: all .7s ease-in-out
+}
+
+figure {
+    overflow: hidden
+}
+
+.scrolls {
+    overflow: auto;
+    height: 395px
+}
+
+    .scrolls::-webkit-scrollbar {
+        width: 10px;
+        background: #e0e0e0
+    }
+
+    .scrolls::-webkit-scrollbar-thumb {
+        background: #a2a2a2;
+        border-radius: 20px
+    }
+
+.scrollsline {
+    border: 1px solid #00000000;
+    border-radius: 5px;
+    background: #00000042;
+    color: white
+}
+
+.middle-indicator {
+    position: absolute;
+    top: 37%
+}
+
+.content-indicator {
+    width: 64px;
+    height: 64px;
+    background: none;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px
+}
+
+.middle-indicator-text {
+    font-size: 4.2rem
+}
+
+a.middle-indicator-text {
+    color: white !important;
+    background: #00000021
+}
+/* ///////////////// TRUNCATE ///////////////// */
+.truncate01 {
+    display: -webkit-box !important;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden
+}
+
+.truncate02 {
+    display: -webkit-box !important;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    height: 58px
+}
+
+.truncate03 {
+    display: -webkit-box !important;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden
+}
+
+.truncate04 {
+    display: -webkit-box !important;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden
+}
+
+.truncate05 {
+    display: -webkit-box !important;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    overflow: hidden
+}
+
+.truncate06 {
+    display: -webkit-box !important;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 6;
+    overflow: hidden
+}
+/* ///////////////// BOTONES ///////////////// */
+.btn-normasdestacadas {
+    height: 44px !important;
+    line-height: 44px !important;
+    width: 100%;
+    background: #b71b1c;
+    text-transform: none;
+    font-size: 1.2rem
+}
+
+    .btn-normasdestacadas:hover {
+        background: #d03b3c !important
+    }
+
+    .btn-normasdestacadas:active {
+        background: #851212 !important
+    }
+
+.destacada-height {
+    height: 220px;
+    overflow: hidden;
+}
+
+.btn-close {
+    width: 70px !important;
+    text-align: center !important;
+    right: 0;
+    top: 0;
+    height: 45px !important;
+    padding: 0px 6px !important;
+    position: absolute;
+    background-color: transparent !important
+}
+
+.btn.btn-sociales {
+    background: #fff;
+    color: #6b6b6b !important;
+    border: 1px solid #ccc;
+    width: 33px;
+    height: 33px;
+    border-radius: 5px;
+    margin: 0px 0px 0px 10px !important
+}
+
+    .btn.btn-sociales:hover {
+        background: #eee;
+        color: #846f61 !important;
+        border-color: #b19f92
+    }
+
+.btn.btn-compartirindex {
+    background: #fff;
+    color: #6b6b6b !important;
+    width: 21px;
+    margin: 0px !important;
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+
+    .btn.btn-compartirindex:hover {
+        background: #fff;
+        color: #846f61 !important;
+        border-color: #b19f92
+    }
+
+.boton-compartir-index {
+    background: #a9a9a9;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 40px;
+    width: 25px !important;
+    padding: 0 2px !important;
+    margin: 2px 2px 2px 2px !important
+}
+
+.btn.light-grey-index {
+    background: transparent;
+    color: #6b6b6b !important;
+    margin: 0px !important;
+    border-radius: 0px;
+    padding: 0 !important;
+    width: 20px !important
+}
+
+    .btn.light-grey-index:hover {
+        background: transparent;
+        color: #846f61 !important;
+        border-color: #ccc
+    }
+
+.btn.light-orange {
+    background: #ebdcd2;
+    border: 1px solid #fff
+}
+
+    .btn.light-orange:hover {
+        background: #fff;
+        color: #846f61 !important;
+        border-color: #b19f92
+    }
+
+.btn.light-grey {
+    background: #fff;
+    margin: 0 2px;
+    color: #6b6b6b !important;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    padding: 1%
+}
+
+    .btn.light-grey:hover {
+        background: #eee;
+        color: #846f61 !important;
+        border-color: #b19f92
+    }
+
+.btn-normas {
+    background: #fff;
+    color: #6b6b6b !important;
+    border: 1px solid #c4c4c4;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s
+}
+
+    .btn-normas:hover {
+        background: white;
+        color: #846f61 !important;
+        border: 1px solid #b19f92
+    }
+
+    .btn-normas:link {
+        background: white;
+        color: #846f61 !important;
+        border: 1px solid #b19292
+    }
+
+    .btn-normas:active {
+        background: #b19f92;
+        color: #fff !important;
+        border: 1px solid #b19f92
+    }
+
+.btn-normas1 {
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    outline: none;
+    position: relative;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s
+}
+
+.btn-2 {
+    background: #4985a8 !important;
+    color: #fff;
+    box-shadow: 0 6px #40708d;
+    -webkit-transition: none;
+    -moz-transition: none;
+    transition: none
+}
+
+.btn-2a {
+    border-radius: 5px
+}
+
+    .btn-2a:hover {
+        background: #4985a8 !important;
+        box-shadow: 0 4px #40708d;
+        top: 2px
+    }
+
+    .btn-2a:active {
+        box-shadow: 0 0 #40708d;
+        top: 6px
+    }
+
+.normaslegales2 {
+    background: #fff;
+    color: #6b6b6b !important;
+    border: 1px solid #ccc;
+    height: auto
+}
+
+    .normaslegales2:hover {
+        background: #eee !important;
+        border: 1px solid #b19f92;
+        color: #846f61 !important
+    }
+
+    .normaslegales2:active {
+        background: #b19f92 !important;
+        border: 1px solid #b19f92;
+        color: #fff !important
+    }
+
+.btn-lineal {
+    color: #494949 !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: transparent;
+    box-shadow: none;
+    border: 2px solid #5875a4 !important;
+    display: inline-block;
+    transition: all 0.4s ease 0s;
+    width: 100%
+}
+
+    .btn-lineal:hover {
+        color: #fff !important;
+        background: #5875a4;
+        border-color: #5875a4 !important;
+        transition: all 0.4s ease 0s
+    }
+
+.btnlinelive-item {
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: #4da3c9;
+    box-shadow: none;
+    display: inline-block;
+    transition: all 0.4s ease 0s;
+    display: inline-block;
+    width: 100%;
+    box-shadow: inset 0 0 0 0.12em #608ebe00 !important
+}
+
+    .btnlinelive-item:hover {
+        color: #6b6b6b !important;
+        background: #fff;
+        border-color: #fff !important;
+        transition: all 0.4s ease 0s
+    }
+
+    .btnlinelive-item:before,
+    .btnlinelive-item:after {
+        position: absolute;
+        content: "";
+        width: 0;
+        height: 0;
+        box-sizing: inherit;
+        border: 0.12em solid transparent
+    }
+
+    .btnlinelive-item:hover:before,
+    .btnlinelive-item:hover:after {
+        width: 100%;
+        height: 100%
+    }
+
+    .btnlinelive-item:before {
+        top: 0;
+        left: 0
+    }
+
+    .btnlinelive-item:after {
+        top: 0;
+        left: 0
+    }
+
+    .btnlinelive-item:hover:before {
+        border-top-color: #c1c1c1;
+        border-right-color: #c1c1c1;
+        transition: width 0.3s ease-in-out, height 0.3s ease-in-out 0.3s
+    }
+
+    .btnlinelive-item:hover:after {
+        border-bottom-color: #c1c1c1;
+        border-left-color: #c1c1c1;
+        transition: height 0.3s ease-in-out, width 0.3s ease-in-out 0.3s
+    }
+
+.btn-expandible-container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto
+}
+
+.btn-expandible {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    border-radius: 0px;
+    margin: 2px;
+    padding: 0 10px;
+    border-radius: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition: .3s;
+    transition: .3s
+}
+
+    .btn-expandible:after {
+        position: absolute;
+        -webkit-transition: .3s;
+        transition: .3s;
+        content: '';
+        width: 0;
+        left: 50%;
+        bottom: 0;
+        height: 3px;
+        background: #7d1c1c
+    }
+
+    .btn-expandible:hover {
+        cursor: pointer
+    }
+
+        .btn-expandible:hover:after {
+            width: 100%;
+            left: 0
+        }
+
+    .btn-expandible:hover {
+        -webkit-box-flex: 3;
+        -webkit-flex-grow: 3;
+        -ms-flex-positive: 3;
+        flex-grow: 3
+    }
+
+        .btn-expandible:hover:after {
+            width: 0%
+        }
+
+.publicidadlat.pub-left {
+    left: 49%;
+    position: absolute;
+    margin-left: -660px;
+    z-index: -10
+}
+
+.publicidadlat.pub-right {
+    right: 48.6%;
+    position: absolute;
+    margin-right: -655px;
+    z-index: -10
+}
+
+.publicidad-img {
+    display: inherit;
+    margin: auto
+}
+/* ///////////////// CONTAINER ///////////////// */
+.container-small {
+    max-width: 600px !important;
+    width: 95% !important;
+    margin: auto
+}
+
+.container-medium {
+    max-width: 1000px !important;
+    width: 99% !important;
+    margin: auto
+}
+
+.container-large {
+    max-width: 1600px !important;
+    width: 93% !important;
+    margin: auto
+}
+
+.container-xlarge {
+    max-width: 1800px !important;
+    width: 99% !important;
+    margin: auto
+}
+
+.container-full {
+    max-width: 2000px !important;
+    width: 99% !important;
+    margin: auto
+}
+
+.suplemento-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto !important;
+    display: block
+}
+/* ///////////////// COLUMNAS ///////////////// */
+.columna2 {
+    column-count: 2;
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-gap: 4em;
+    -moz-column-gap: 4em;
+    -webkit-column-gap: 4em;
+    column-width: 320px;
+    -moz-column-width: 320px;
+    -webkit-column-width: 320px;
+    padding: 0 20px;
+    margin-bottom: 40px
+}
+
+.columna3 {
+    column-count: 3;
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-gap: 4em;
+    -moz-column-gap: 4em;
+    -webkit-column-gap: 4em;
+    column-width: 320px;
+    -moz-column-width: 320px;
+    -webkit-column-width: 320px;
+    padding: 0 20px;
+    margin-bottom: 40px
+}
+
+.columna4 {
+    column-count: 4;
+    -moz-column-count: 4;
+    -webkit-column-count: 4;
+    column-gap: 4em;
+    -moz-column-gap: 4em;
+    -webkit-column-gap: 4em;
+    column-width: 320px;
+    -moz-column-width: 320px;
+    -webkit-column-width: 320px;
+    padding: 0 20px;
+    margin-bottom: 40px
+}
+
+.columna5 {
+    column-count: 5;
+    -moz-column-count: 5;
+    -webkit-column-count: 5;
+    column-gap: 4em;
+    -moz-column-gap: 4em;
+    -webkit-column-gap: 4em;
+    column-width: 320px;
+    -moz-column-width: 320px;
+    -webkit-column-width: 320px;
+    padding: 0 20px;
+    margin-bottom: 40px
+}
+/* ///////////////// FOTO ///////////////// */
+figure {
+    position: relative;
+    overflow: hidden;
+    margin: 0 !important;
+    margin-bottom: 10px !important
+}
+
+figcaption {
+    font-size: 1rem;
+    line-height: 120%;
+    padding: 10px 15px;
+    display: inline-block;
+    text-align: justify !important;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    color: #fff;
+    font-weight: 100;
+    background: #00000087
+}
+
+figure:before {
+    content: '';
+    display: block
+}
+
+.foto4-5:before {
+    padding-top: 120%
+}
+
+.foto4-6:before {
+    padding-top: 150%
+}
+
+.foto6-3:before {
+    padding-top: 53%
+}
+
+.foto6-2:before {
+    padding-top: 33%
+}
+
+.foto6-4:before {
+    padding-top: 66%
+}
+
+.foto6-6:before {
+    padding-top: 100%
+}
+
+.fotoh {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    height: auto;
+    right: 0;
+    display: -webkit-box !important;
+    display: -webkit-flex !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-align: center !important;
+    -webkit-align-items: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+    margin: auto
+}
+
+.fotov {
+    position: absolute;
+    top: -50%;
+    bottom: -50%;
+    left: 0;
+    right: 0;
+    max-width: 100%;
+    height: auto;
+    display: -webkit-box !important;
+    display: -webkit-flex !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-align: center !important;
+    -webkit-align-items: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important
+}
+
+.fotonoticiah {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    height: auto;
+    right: 0;
+    display: -webkit-box !important;
+    display: -webkit-flex !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -webkit-box-align: center !important;
+    -webkit-align-items: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+    margin: auto
+}
+
+.fotonoticia:before {
+    padding-top: 66%
+}
+/* ///////////////// FUENTES ///////////////// */
+h1 {
+    font-size: 3rem
+}
+
+h2 {
+    font-size: 2.7rem
+}
+
+h3 {
+    font-size: 2.4rem
+}
+
+h4 {
+    font-size: 2.1rem
+}
+
+h5 {
+    font-size: 1.8rem
+}
+
+h6 {
+    font-size: 1.5rem
+}
+
+.ffserif {
+    font-family: 'ibpmplex', serif
+}
+
+@font-face {
+    font-family: 'ibpmplex';
+    src: url(../fonts/IBMPlexSerif-Thin.ttf);
+    font-weight: 100
+}
+
+@font-face {
+    font-family: 'ibpmplex';
+    src: url(../fonts/IBMPlexSerif-ThinItalic.ttf);
+    font-weight: 100;
+    font-style: italic
+}
+
+@font-face {
+    font-family: 'ibpmplex';
+    src: url(../fonts/IBMPlexSerif-ExtraLight.ttf);
+    font-weight: 200
+}
+
+@font-face {
+    font-family: 'ibpmplex';
+    src: url(../fonts/IBMPlexSerif-ExtraLightItalic.ttf);
+    font-weight: 200;
+    font-style: italic
+}
+
+@font-face {
+    font-family: 'ibpmplex';
+    src: url(../fonts/IBMPlexSerif-Light.ttf);
+    font-weight: 300
+}
+
+@font-face {
+    font-family: 'ibpmplex';
+    src: url(../fonts/IBMPlexSerif-LightItalic.ttf);
+    font-weight: 300;
+    font-style: italic
+}
+
+@font-face {
+    font-family: 'ibpmplex';
+    src: url(../fonts/IBMPlexSerif-Regular.ttf);
+    font-weight: 400
+}
+
+@font-face {
+    font-family: 'ibpmplex';
+    src: url(../fonts/IBMPlexSerif-Medium.ttf);
+    font-weight: 500
+}
+
+@font-face {
+    font-family: 'ibpmplex';
+    src: url(../fonts/IBMPlexSerif-MediumItalic.ttf);
+    font-weight: 500;
+    font-style: italic
+}
+
+@font-face {
+    font-family: 'ibpmplex';
+    src: url(../fonts/IBMPlexSerif-SemiBold.ttf);
+    font-weight: 600
+}
+
+@font-face {
+    font-family: 'ibpmplex';
+    src: url(../fonts/IBMPlexSerif-SemiBoldItalic.ttf);
+    font-weight: 600;
+    font-style: italic
+}
+
+@font-face {
+    font-family: 'ibpmplex';
+    src: url(../fonts/IBMPlexSerif-Bold.ttf);
+    font-weight: 700
+}
+
+@font-face {
+    font-family: 'ibpmplex';
+    src: url(../fonts/IBMPlexSerif-BoldItalic.ttf);
+    font-weight: 700;
+    font-style: italic
+}
+
+.mayuscula {
+    text-transform: uppercase !important
+}
+
+.minuscula {
+    text-transform: initial !important
+}
+
+@media only screen and (max-width: 360px) {
+    .flow-text {
+        font-size: 1.1rem
+    }
+
+    h1 {
+        font-size: 2rem
+    }
+
+    h2 {
+        font-size: 2.200rem
+    }
+
+    h3 {
+        font-size: 1.900rem
+    }
+
+    h4 {
+        font-size: 1.700rem
+    }
+
+    h5 {
+        font-size: 1.400rem
+    }
+
+    h6 {
+        font-size: 1.300rem
+    }
+}
+
+@media only screen and (min-width: 360px) {
+    .flow-text {
+        font-size: 1.1rem
+    }
+
+    h1 {
+        font-size: 2rem
+    }
+
+    h2 {
+        font-size: 2.200rem
+    }
+
+    h3 {
+        font-size: 1.900rem
+    }
+
+    h4 {
+        font-size: 1.700rem
+    }
+
+    h5 {
+        font-size: 1.400rem
+    }
+
+    h6 {
+        font-size: 1.300rem
+    }
+}
+
+@media only screen and (min-width: 390px) {
+    .flow-text {
+        font-size: 1.118rem
+    }
+
+    h1 {
+        font-size: 2rem
+    }
+
+    h2 {
+        font-size: 2.255rem
+    }
+
+    h3 {
+        font-size: 1.955rem
+    }
+
+    h4 {
+        font-size: 1.755rem
+    }
+
+    h5 {
+        font-size: 1.4rem
+    }
+
+    h6 {
+        font-size: 1.355rem
+    }
+}
+
+@media only screen and (min-width: 420px) {
+    .flow-text {
+        font-size: 1.119rem
+    }
+
+    h1 {
+        font-size: 2.2rem
+    }
+
+    h2 {
+        font-size: 2.260rem
+    }
+
+    h3 {
+        font-size: 1.960rem
+    }
+
+    h4 {
+        font-size: 1.760rem
+    }
+
+    h5 {
+        font-size: 1.460rem
+    }
+
+    h6 {
+        font-size: 1.360rem
+    }
+}
+
+@media only screen and (min-width: 450px) {
+    .flow-text {
+        font-size: 1.120rem
+    }
+
+    h1 {
+        font-size: 2.3rem
+    }
+
+    h2 {
+        font-size: 2.265rem
+    }
+
+    h3 {
+        font-size: 1.965rem
+    }
+
+    h4 {
+        font-size: 1.765rem
+    }
+
+    h5 {
+        font-size: 1.465rem
+    }
+
+    h6 {
+        font-size: 1.365rem
+    }
+}
+
+@media only screen and (min-width: 480px) {
+    .flow-text {
+        font-size: 1.121rem
+    }
+
+    h1 {
+        font-size: 2.4rem
+    }
+
+    h2 {
+        font-size: 2.270rem
+    }
+
+    h3 {
+        font-size: 1.970rem
+    }
+
+    h4 {
+        font-size: 1.770rem
+    }
+
+    h5 {
+        font-size: 1.470rem
+    }
+
+    h6 {
+        font-size: 1.370rem
+    }
+}
+
+@media only screen and (min-width: 510px) {
+    .flow-text {
+        font-size: 1.122rem
+    }
+
+    h1 {
+        font-size: 2.5rem
+    }
+
+    h2 {
+        font-size: 2.275rem
+    }
+
+    h3 {
+        font-size: 1.975rem
+    }
+
+    h4 {
+        font-size: 1.775rem
+    }
+
+    h5 {
+        font-size: 1.475rem
+    }
+
+    h6 {
+        font-size: 1.375rem
+    }
+}
+
+@media only screen and (min-width: 540px) {
+    .flow-text {
+        font-size: 1.123rem
+    }
+
+    h1 {
+        font-size: 2.580rem
+    }
+
+    h2 {
+        font-size: 2.280rem
+    }
+
+    h3 {
+        font-size: 1.980rem
+    }
+
+    h4 {
+        font-size: 1.780rem
+    }
+
+    h5 {
+        font-size: 1.480rem
+    }
+
+    h6 {
+        font-size: 1.380rem
+    }
+}
+
+@media only screen and (min-width: 570px) {
+    .flow-text {
+        font-size: 1.124rem
+    }
+
+    h1 {
+        font-size: 2.585rem
+    }
+
+    h2 {
+        font-size: 2.285rem
+    }
+
+    h3 {
+        font-size: 1.985rem
+    }
+
+    h4 {
+        font-size: 1.785rem
+    }
+
+    h5 {
+        font-size: 1.485rem
+    }
+
+    h6 {
+        font-size: 1.385rem
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .flow-text {
+        font-size: 1.125rem
+    }
+
+    h1 {
+        font-size: 2.590rem
+    }
+
+    h2 {
+        font-size: 2.290rem
+    }
+
+    h3 {
+        font-size: 1.990rem
+    }
+
+    h4 {
+        font-size: 1.790rem
+    }
+
+    h5 {
+        font-size: 1.490rem
+    }
+
+    h6 {
+        font-size: 1.390rem
+    }
+}
+
+@media only screen and (min-width: 630px) {
+    .flow-text {
+        font-size: 1.126rem
+    }
+
+    h1 {
+        font-size: 2.595rem
+    }
+
+    h2 {
+        font-size: 2.295rem
+    }
+
+    h3 {
+        font-size: 1.995rem
+    }
+
+    h4 {
+        font-size: 1.795rem
+    }
+
+    h5 {
+        font-size: 1.495rem
+    }
+
+    h6 {
+        font-size: 1.395rem
+    }
+}
+
+@media only screen and (min-width: 660px) {
+    .flow-text {
+        font-size: 1.127rem
+    }
+
+    h1 {
+        font-size: 2.600rem
+    }
+
+    h2 {
+        font-size: 2.300rem
+    }
+
+    h3 {
+        font-size: 2.000rem
+    }
+
+    h4 {
+        font-size: 1.800rem
+    }
+
+    h5 {
+        font-size: 1.500rem
+    }
+
+    h6 {
+        font-size: 1.400rem
+    }
+}
+
+@media only screen and (min-width: 690px) {
+    .flow-text {
+        font-size: 1.128rem
+    }
+
+    h1 {
+        font-size: 2.605rem
+    }
+
+    h2 {
+        font-size: 2.305rem
+    }
+
+    h3 {
+        font-size: 2.005rem
+    }
+
+    h4 {
+        font-size: 1.805rem
+    }
+
+    h5 {
+        font-size: 1.505rem
+    }
+
+    h6 {
+        font-size: 1.405rem
+    }
+}
+
+@media only screen and (min-width: 720px) {
+    .flow-text {
+        font-size: 1.129rem
+    }
+
+    h1 {
+        font-size: 2.610rem
+    }
+
+    h2 {
+        font-size: 2.310rem
+    }
+
+    h3 {
+        font-size: 2.010rem
+    }
+
+    h4 {
+        font-size: 1.810rem
+    }
+
+    h5 {
+        font-size: 1.510rem
+    }
+
+    h6 {
+        font-size: 1.410rem
+    }
+}
+
+@media only screen and (min-width: 750px) {
+    .flow-text {
+        font-size: 1.130rem
+    }
+
+    h1 {
+        font-size: 2.615rem
+    }
+
+    h2 {
+        font-size: 2.315rem
+    }
+
+    h3 {
+        font-size: 2.015rem
+    }
+
+    h4 {
+        font-size: 1.815rem
+    }
+
+    h5 {
+        font-size: 1.515rem
+    }
+
+    h6 {
+        font-size: 1.415rem
+    }
+}
+
+@media only screen and (min-width: 780px) {
+    .flow-text {
+        font-size: 1.131rem
+    }
+
+    h1 {
+        font-size: 2.620rem
+    }
+
+    h2 {
+        font-size: 2.320rem
+    }
+
+    h3 {
+        font-size: 2.020rem
+    }
+
+    h4 {
+        font-size: 1.820rem
+    }
+
+    h5 {
+        font-size: 1.520rem
+    }
+
+    h6 {
+        font-size: 1.420rem
+    }
+}
+
+@media only screen and (min-width: 810px) {
+    .flow-text {
+        font-size: 1.132rem
+    }
+
+    h1 {
+        font-size: 2.625rem
+    }
+
+    h2 {
+        font-size: 2.325rem
+    }
+
+    h3 {
+        font-size: 2.025rem
+    }
+
+    h4 {
+        font-size: 1.825rem
+    }
+
+    h5 {
+        font-size: 1.525rem
+    }
+
+    h6 {
+        font-size: 1.425rem
+    }
+}
+
+@media only screen and (min-width: 840px) {
+    .flow-text {
+        font-size: 1.133rem
+    }
+
+    h1 {
+        font-size: 2.630rem
+    }
+
+    h2 {
+        font-size: 2.330rem
+    }
+
+    h3 {
+        font-size: 2.030rem
+    }
+
+    h4 {
+        font-size: 1.830rem
+    }
+
+    h5 {
+        font-size: 1.530rem
+    }
+
+    h6 {
+        font-size: 1.430rem
+    }
+}
+
+@media only screen and (min-width: 870px) {
+    .flow-text {
+        font-size: 1.134rem
+    }
+
+    h1 {
+        font-size: 2.635rem
+    }
+
+    h2 {
+        font-size: 2.335rem
+    }
+
+    h3 {
+        font-size: 2.035rem
+    }
+
+    h4 {
+        font-size: 1.835rem
+    }
+
+    h5 {
+        font-size: 1.535rem
+    }
+
+    h6 {
+        font-size: 1.435rem
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .flow-text {
+        font-size: 1.135rem
+    }
+
+    h1 {
+        font-size: 2.640rem
+    }
+
+    h2 {
+        font-size: 2.340rem
+    }
+
+    h3 {
+        font-size: 2.040rem
+    }
+
+    h4 {
+        font-size: 1.840rem
+    }
+
+    h5 {
+        font-size: 1.540rem
+    }
+
+    h6 {
+        font-size: 1.440rem
+    }
+}
+
+@media only screen and (min-width: 930px) {
+    .flow-text {
+        font-size: 1.136rem
+    }
+
+    h1 {
+        font-size: 2.645rem
+    }
+
+    h2 {
+        font-size: 2.345rem
+    }
+
+    h3 {
+        font-size: 2.045rem
+    }
+
+    h4 {
+        font-size: 1.845rem
+    }
+
+    h5 {
+        font-size: 1.545rem
+    }
+
+    h6 {
+        font-size: 1.445rem
+    }
+}
+
+@media only screen and (min-width: 960px) {
+    .flow-text {
+        font-size: 1.140rem
+    }
+
+    h1 {
+        font-size: 3.0rem
+    }
+
+    h2 {
+        font-size: 2.7rem
+    }
+
+    h3 {
+        font-size: 2.4rem
+    }
+
+    h4 {
+        font-size: 2.1rem
+    }
+
+    h5 {
+        font-size: 1.8rem
+    }
+
+    h6 {
+        font-size: 1.5rem
+    }
+}
+
+.fz04 {
+    font-size: 0.4rem !important
+}
+
+.fz06 {
+    font-size: 0.6rem !important
+}
+
+.fz07 {
+    font-size: 0.7rem !important
+}
+
+.fz08 {
+    font-size: 0.8rem !important
+}
+
+.fz09 {
+    font-size: 0.9rem !important
+}
+
+.fz10 {
+    font-size: 1.0rem !important
+}
+
+.fz11 {
+    font-size: 1.1rem !important
+}
+
+.fz12 {
+    font-size: 1.2rem !important
+}
+
+.fz13 {
+    font-size: 1.3rem !important
+}
+
+.fz14 {
+    font-size: 1.4rem !important
+}
+
+.fz15 {
+    font-size: 1.5rem !important
+}
+
+.fz16 {
+    font-size: 1.6rem !important
+}
+
+.fz17 {
+    font-size: 1.7rem !important
+}
+
+.fz18 {
+    font-size: 1.8rem !important
+}
+
+.fz19 {
+    font-size: 1.9rem !important
+}
+
+.fz20 {
+    font-size: 2.0rem !important
+}
+
+.fz21 {
+    font-size: 2.1rem !important
+}
+
+.fz22 {
+    font-size: 2.2rem !important
+}
+
+.fz23 {
+    font-size: 2.3rem !important
+}
+
+.fz24 {
+    font-size: 2.4rem !important
+}
+
+.fz25 {
+    font-size: 2.5rem !important
+}
+
+.fz26 {
+    font-size: 2.6rem !important
+}
+
+.fz27 {
+    font-size: 2.7rem !important
+}
+
+.fz28 {
+    font-size: 2.8rem !important
+}
+
+.fz29 {
+    font-size: 2.9rem !important
+}
+
+.fz30 {
+    font-size: 3.0rem !important
+}
+
+.fz31 {
+    font-size: 3.1rem !important
+}
+
+.fz32 {
+    font-size: 3.2rem !important
+}
+
+.fz33 {
+    font-size: 3.3rem !important
+}
+
+.fz34 {
+    font-size: 3.4rem !important
+}
+
+.fz35 {
+    font-size: 3.5rem !important
+}
+
+.fz36 {
+    font-size: 3.6rem !important
+}
+
+.fz37 {
+    font-size: 3.7rem !important
+}
+
+.fz38 {
+    font-size: 3.8rem !important
+}
+
+.fz39 {
+    font-size: 3.9rem !important
+}
+
+.fz40 {
+    font-size: 4.0rem !important
+}
+
+.fz50 {
+    font-size: 5.0rem
+}
+
+.fz60 {
+    font-size: 6.0rem !important
+}
+
+.fz70 {
+    font-size: 7.0rem !important
+}
+
+.fz80 {
+    font-size: 8.0rem !important
+}
+
+.fz90 {
+    font-size: 9.0rem !important
+}
+
+.fw100 {
+    font-weight: 100 !important
+}
+
+.fw200 {
+    font-weight: 200 !important
+}
+
+.fw300 {
+    font-weight: 300 !important
+}
+
+.fw400 {
+    font-weight: 400 !important
+}
+
+.fw500 {
+    font-weight: 500 !important
+}
+
+.fw600 {
+    font-weight: 600 !important
+}
+
+.fw700 {
+    font-weight: 700 !important
+}
+
+.fw800 {
+    font-weight: 800 !important
+}
+
+.fw900 {
+    font-weight: 900 !important
+}
+
+.lh0 {
+    line-height: inherit !important;
+    height: inherit !important
+}
+
+.no-lh {
+    line-height: 0px !important
+}
+
+.lh10 {
+    line-height: 10px !important
+}
+
+.lh12 {
+    line-height: 12px !important
+}
+
+.lh13 {
+    line-height: 13px !important
+}
+
+.lh14 {
+    line-height: 14px !important
+}
+
+.lh15 {
+    line-height: 15px !important
+}
+
+.lh16 {
+    line-height: 16px !important
+}
+
+.lh17 {
+    line-height: 17px !important
+}
+
+.lh18 {
+    line-height: 18px !important
+}
+
+.lh19 {
+    line-height: 19px !important
+}
+
+.lh20 {
+    line-height: 20px !important
+}
+
+.lh21 {
+    line-height: 21px !important
+}
+
+.lh22 {
+    line-height: 22px !important
+}
+
+.lh23 {
+    line-height: 23px !important
+}
+
+.lh24 {
+    line-height: 24px !important
+}
+
+.lh25 {
+    line-height: 25px !important
+}
+
+.lh26 {
+    line-height: 26px !important
+}
+
+.lh27 {
+    line-height: 27px !important
+}
+
+.lh28 {
+    line-height: 28px !important
+}
+
+.lh29 {
+    line-height: 29px !important
+}
+
+.lh30 {
+    line-height: 30px !important
+}
+
+.lh31 {
+    line-height: 31px !important
+}
+
+.lh32 {
+    line-height: 32px !important
+}
+
+.lh33 {
+    line-height: 33px !important
+}
+
+.lh34 {
+    line-height: 34px !important
+}
+
+.lh35 {
+    line-height: 35px !important
+}
+
+.lh36 {
+    line-height: 36px !important
+}
+
+.lh37 {
+    line-height: 37px !important
+}
+
+.lh38 {
+    line-height: 38px !important
+}
+
+.lh39 {
+    line-height: 39px !important
+}
+
+.lh40 {
+    line-height: 40px !important
+}
+
+.lh45 {
+    line-height: 45px !important
+}
+
+.lh50 {
+    line-height: 50px !important
+}
+
+.lh55 {
+    line-height: 55px !important
+}
+
+.lh70 {
+    line-height: 70px !important
+}
+/* ///////////////// PADDING ///////////////// */
+.no-padding {
+    padding: 0 !important
+}
+
+.no-paddingtop {
+    padding-top: 0 !important
+}
+
+.no-paddingbottom {
+    padding-bottom: 0 !important
+}
+
+.no-paddingleft {
+    padding-left: 0 !important
+}
+
+.no-paddingright {
+    padding-right: 0 !important
+}
+
+.padding1 {
+    padding: 1px !important
+}
+
+.padding2 {
+    padding: 2px !important
+}
+
+.padding3 {
+    padding: 3px !important
+}
+
+.padding4 {
+    padding: 4px !important
+}
+
+.padding5 {
+    padding: 5px !important
+}
+
+.padding6 {
+    padding: 6px !important
+}
+
+.padding7 {
+    padding: 7px !important
+}
+
+.padding8 {
+    padding: 8px !important
+}
+
+.padding9 {
+    padding: 9px !important
+}
+
+.padding10 {
+    padding: 10px !important
+}
+
+.padding15 {
+    padding: 15px !important
+}
+
+.padding20 {
+    padding: 20px !important
+}
+
+.padding25 {
+    padding: 25px !important
+}
+
+.padding30 {
+    padding: 30px !important
+}
+
+.padding35 {
+    padding: 35px !important
+}
+
+.padding40 {
+    padding: 40px !important
+}
+
+.paddingleft1 {
+    padding-left: 1px !important
+}
+
+.paddingleft2 {
+    padding-left: 2px !important
+}
+
+.paddingleft3 {
+    padding-left: 3px !important
+}
+
+.paddingleft4 {
+    padding-left: 4px !important
+}
+
+.paddingleft5 {
+    padding-left: 5px !important
+}
+
+.paddingleft6 {
+    padding-left: 6px !important
+}
+
+.paddingleft7 {
+    padding-left: 7px !important
+}
+
+.paddingleft8 {
+    padding-left: 8px !important
+}
+
+.paddingleft9 {
+    padding-left: 9px !important
+}
+
+.paddingleft10 {
+    padding-left: 10px !important
+}
+
+.paddingleft15 {
+    padding-left: 15px !important
+}
+
+.paddingleft20 {
+    padding-left: 20px !important
+}
+
+.paddingleft25 {
+    padding-left: 25px !important
+}
+
+.paddingleft30 {
+    padding-left: 30px !important
+}
+
+.paddingleft35 {
+    padding-left: 35px !important
+}
+
+.paddingleft40 {
+    padding-left: 40px !important
+}
+
+.paddingright1 {
+    padding-right: 1px !important
+}
+
+.paddingright2 {
+    padding-right: 2px !important
+}
+
+.paddingright3 {
+    padding-right: 3px !important
+}
+
+.paddingright4 {
+    padding-right: 4px !important
+}
+
+.paddingright5 {
+    padding-right: 5px !important
+}
+
+.paddingright6 {
+    padding-right: 6px !important
+}
+
+.paddingright7 {
+    padding-right: 7px !important
+}
+
+.paddingright8 {
+    padding-right: 8px !important
+}
+
+.paddingright9 {
+    padding-right: 9px !important
+}
+
+.paddingright10 {
+    padding-right: 10px !important
+}
+
+.paddingright15 {
+    padding-right: 15px !important
+}
+
+.paddingright20 {
+    padding-right: 20px !important
+}
+
+.paddingright25 {
+    padding-right: 25px !important
+}
+
+.paddingright30 {
+    padding-right: 30px !important
+}
+
+.paddingright35 {
+    padding-right: 35px !important
+}
+
+.paddingright40 {
+    padding-right: 40px !important
+}
+
+.paddinglat1 {
+    padding: 0 1px !important
+}
+
+.paddinglat2 {
+    padding: 0 2px !important
+}
+
+.paddinglat3 {
+    padding: 0 3px !important
+}
+
+.paddinglat4 {
+    padding: 0 4px !important
+}
+
+.paddinglat5 {
+    padding: 0 5px !important
+}
+
+.paddinglat6 {
+    padding: 0 6px !important
+}
+
+.paddinglat7 {
+    padding: 0 7px !important
+}
+
+.paddinglat8 {
+    padding: 0 8px !important
+}
+
+.paddinglat9 {
+    padding: 0 9px !important
+}
+
+.paddinglat10 {
+    padding: 0 10px !important
+}
+
+.paddinglat11 {
+    padding: 0 11px !important
+}
+
+.paddinglat15 {
+    padding: 0 15px !important
+}
+
+.paddinglat20 {
+    padding: 0 20px !important
+}
+
+.paddinglat25 {
+    padding: 0 25px !important
+}
+
+.paddinglat30 {
+    padding: 0 30px !important
+}
+
+.paddinglat35 {
+    padding: 0 35px !important
+}
+
+.paddinglat40 {
+    padding: 0 40px !important
+}
+
+.paddinglat40 {
+    padding: 0 40px !important
+}
+
+.paddingtopbottom1 {
+    padding: 1px 0 !important
+}
+
+.paddingtopbottom2 {
+    padding: 2px 0 !important
+}
+
+.paddingtopbottom3 {
+    padding: 3px 0 !important
+}
+
+.paddingtopbottom4 {
+    padding: 4px 0 !important
+}
+
+.paddingtopbottom5 {
+    padding: 5px 0 !important
+}
+
+.paddingtopbottom6 {
+    padding: 6px 0 !important
+}
+
+.paddingtopbottom7 {
+    padding: 7px 0 !important
+}
+
+.paddingtopbottom8 {
+    padding: 8px 0 !important
+}
+
+.paddingtopbottom9 {
+    padding: 9px 0 !important
+}
+
+.paddingtopbottom10 {
+    padding: 10px 0 !important
+}
+
+.paddingtopbottom15 {
+    padding: 15px 0 !important
+}
+
+.paddingtopbottom20 {
+    padding: 20px 0 !important
+}
+
+.paddingtopbottom25 {
+    padding: 25px 0 !important
+}
+
+.paddingtopbottom30 {
+    padding: 30px 0 !important
+}
+
+.paddingtopbottom35 {
+    padding: 35px 0 !important
+}
+
+.paddingtopbottom40 {
+    padding: 40px 0 !important
+}
+
+.paddingtop0 {
+    padding-top: 0 !important
+}
+
+.paddingtop1 {
+    padding-top: 1px !important
+}
+
+.paddingtop2 {
+    padding-top: 2px !important
+}
+
+.paddingtop3 {
+    padding-top: 3px !important
+}
+
+.paddingtop4 {
+    padding-top: 4px !important
+}
+
+.paddingtop5 {
+    padding-top: 5px !important
+}
+
+.paddingtop6 {
+    padding-top: 6px !important
+}
+
+.paddingtop7 {
+    padding-top: 7px !important
+}
+
+.paddingtop8 {
+    padding-top: 8px !important
+}
+
+.paddingtop9 {
+    padding-top: 9px !important
+}
+
+.paddingtop10 {
+    padding-top: 10px !important
+}
+
+.paddingtop11 {
+    padding-top: 11px !important
+}
+
+.paddingtop12 {
+    padding-top: 12px !important
+}
+
+.paddingtop13 {
+    padding-top: 13px !important
+}
+
+.paddingtop14 {
+    padding-top: 14px !important
+}
+
+.paddingtop15 {
+    padding-top: 15px !important
+}
+
+.paddingtop20 {
+    padding-top: 20px !important
+}
+
+.paddingtop25 {
+    padding-top: 25px !important
+}
+
+.paddingtop30 {
+    padding-top: 30px !important
+}
+
+.paddingtop35 {
+    padding-top: 35px !important
+}
+
+.paddingtop40 {
+    padding-top: 40px !important
+}
+
+.paddingbottom0 {
+    padding-bottom: 0 !important
+}
+
+.paddingbottom1 {
+    padding-bottom: 1px !important
+}
+
+.paddingbottom2 {
+    padding-bottom: 2px !important
+}
+
+.paddingbottom3 {
+    padding-bottom: 3px !important
+}
+
+.paddingbottom4 {
+    padding-bottom: 4px !important
+}
+
+.paddingbottom5 {
+    padding-bottom: 5px !important
+}
+
+.paddingbottom6 {
+    padding-bottom: 6px !important
+}
+
+.paddingbottom7 {
+    padding-bottom: 7px !important
+}
+
+.paddingbottom8 {
+    padding-bottom: 8px !important
+}
+
+.paddingbottom9 {
+    padding-bottom: 9px !important
+}
+
+.paddingbottom10 {
+    padding-bottom: 10px !important
+}
+
+.paddingbottom15 {
+    padding-bottom: 15px !important
+}
+
+.paddingbottom20 {
+    padding-bottom: 20px !important
+}
+
+.paddingbottom25 {
+    padding-bottom: 25px !important
+}
+
+.paddingbottom30 {
+    padding-bottom: 30px !important
+}
+
+.paddingbottom35 {
+    padding-bottom: 35px !important
+}
+
+.paddingbottom40 {
+    padding-bottom: 40px !important
+}
+/* ///////////////// MARGIN ///////////////// */
+.marginauto {
+    margin: auto !important
+}
+
+.no-margin {
+    margin: 0 !important
+}
+
+.no-margintop {
+    margin-top: 0 !important
+}
+
+.no-marginbottom {
+    margin-bottom: 0 !important
+}
+
+.no-marginleft {
+    margin-left: 0 !important
+}
+
+.no-marginright {
+    margin-right: 0 !important
+}
+
+.margin1 {
+    margin: 1px !important
+}
+
+.margin2 {
+    margin: 2px !important
+}
+
+.margin3 {
+    margin: 3px !important
+}
+
+.margin4 {
+    margin: 4px !important
+}
+
+.margin5 {
+    margin: 5px !important
+}
+
+.margin6 {
+    margin: 6px !important
+}
+
+.margin7 {
+    margin: 7px !important
+}
+
+.margin8 {
+    margin: 8px !important
+}
+
+.margin9 {
+    margin: 9px !important
+}
+
+.margin10 {
+    margin: 10px !important
+}
+
+.margin15 {
+    margin: 15px !important
+}
+
+.margin20 {
+    margin: 20px !important
+}
+
+.margin25 {
+    margin: 25px !important
+}
+
+.margin30 {
+    margin: 30px !important
+}
+
+.margin35 {
+    margin: 35px !important
+}
+
+.margin40 {
+    margin: 40px !important
+}
+
+.marginleft1 {
+    margin-left: 1px !important
+}
+
+.marginleft2 {
+    margin-left: 2px !important
+}
+
+.marginleft3 {
+    margin-left: 3px !important
+}
+
+.marginleft4 {
+    margin-left: 4px !important
+}
+
+.marginleft5 {
+    margin-left: 5px !important
+}
+
+.marginleft6 {
+    margin-left: 6px !important
+}
+
+.marginleft7 {
+    margin-left: 7px !important
+}
+
+.marginleft8 {
+    margin-left: 8px !important
+}
+
+.marginleft9 {
+    margin-left: 9px !important
+}
+
+.marginleft10 {
+    margin-left: 10px !important
+}
+
+.marginleft15 {
+    margin-left: 15px !important
+}
+
+.marginleft20 {
+    margin-left: 20px !important
+}
+
+.marginleft25 {
+    margin-left: 25px !important
+}
+
+.marginleft30 {
+    margin-left: 30px !important
+}
+
+.marginleft35 {
+    margin-left: 35px !important
+}
+
+.marginleft40 {
+    margin-left: 40px !important
+}
+
+.marginleft70 {
+    margin-left: 70px !important
+}
+
+.marginright1 {
+    margin-right: 1px !important
+}
+
+.marginright2 {
+    margin-right: 2px !important
+}
+
+.marginright3 {
+    margin-right: 3px !important
+}
+
+.marginright4 {
+    margin-right: 4px !important
+}
+
+.marginright5 {
+    margin-right: 5px !important
+}
+
+.marginright6 {
+    margin-right: 6px !important
+}
+
+.marginright7 {
+    margin-right: 7px !important
+}
+
+.marginright8 {
+    margin-right: 8px !important
+}
+
+.marginright9 {
+    margin-right: 9px !important
+}
+
+.marginright10 {
+    margin-right: 10px !important
+}
+
+.marginright15 {
+    margin-right: 15px !important
+}
+
+.marginright20 {
+    margin-right: 20px !important
+}
+
+.marginright25 {
+    margin-right: 25px !important
+}
+
+.marginright30 {
+    margin-right: 30px !important
+}
+
+.marginright35 {
+    margin-right: 35px !important
+}
+
+.marginright40 {
+    margin-right: 40px !important
+}
+
+.marginlat1 {
+    margin: 0 1px !important
+}
+
+.marginlat2 {
+    margin: 0 2px !important
+}
+
+.marginlat3 {
+    margin: 0 3px !important
+}
+
+.marginlat4 {
+    margin: 0 4px !important
+}
+
+.marginlat5 {
+    margin: 0 5px !important
+}
+
+.marginlat6 {
+    margin: 0 6px !important
+}
+
+.marginlat7 {
+    margin: 0 7px !important
+}
+
+.marginlat8 {
+    margin: 0 8px !important
+}
+
+.marginlat9 {
+    margin: 0 9px !important
+}
+
+.marginlat10 {
+    margin: 0 10px !important
+}
+
+.marginlat15 {
+    margin: 0 15px !important
+}
+
+.marginlat20 {
+    margin: 0 20px !important
+}
+
+.marginlat25 {
+    margin: 0 25px !important
+}
+
+.marginlat30 {
+    margin: 0 30px !important
+}
+
+.marginlat35 {
+    margin: 0 35px !important
+}
+
+.marginlat40 {
+    margin: 0 40px !important
+}
+
+.marginlat40 {
+    margin: 0 40px !important
+}
+
+.margintopbottom1 {
+    margin: 1px 0 !important
+}
+
+.margintopbottom2 {
+    margin: 2px 0 !important
+}
+
+.margintopbottom3 {
+    margin: 3px 0 !important
+}
+
+.margintopbottom4 {
+    margin: 4px 0 !important
+}
+
+.margintopbottom5 {
+    margin: 5px 0 !important
+}
+
+.margintopbottom6 {
+    margin: 6px 0 !important
+}
+
+.margintopbottom7 {
+    margin: 7px 0 !important
+}
+
+.margintopbottom8 {
+    margin: 8px 0 !important
+}
+
+.margintopbottom9 {
+    margin: 9px 0 !important
+}
+
+.margintopbottom10 {
+    margin: 10px 0 !important
+}
+
+.margintopbottom15 {
+    margin: 15px 0 !important
+}
+
+.margintopbottom20 {
+    margin: 20px 0 !important
+}
+
+.margintopbottom25 {
+    margin: 25px 0 !important
+}
+
+.margintopbottom30 {
+    margin: 30px 0 !important
+}
+
+.margintopbottom35 {
+    margin: 35px 0 !important
+}
+
+.margintopbottom40 {
+    margin: 40px 0 !important
+}
+
+.margintop0 {
+    margin-top: 0 !important
+}
+
+.margintop1 {
+    margin-top: 1px !important
+}
+
+.margintop2 {
+    margin-top: 2px !important
+}
+
+.margintop3 {
+    margin-top: 3px !important
+}
+
+.margintop4 {
+    margin-top: 4px !important
+}
+
+.margintop5 {
+    margin-top: 5px !important
+}
+
+.margintop6 {
+    margin-top: 6px !important
+}
+
+.margintop7 {
+    margin-top: 7px !important
+}
+
+.margintop8 {
+    margin-top: 8px !important
+}
+
+.margintop9 {
+    margin-top: 9px !important
+}
+
+.margintop10 {
+    margin-top: 10px !important
+}
+
+.margintop15 {
+    margin-top: 15px !important
+}
+
+.margintop20 {
+    margin-top: 20px !important
+}
+
+.margintop25 {
+    margin-top: 25px !important
+}
+
+.margintop30 {
+    margin-top: 30px !important
+}
+
+.margintop35 {
+    margin-top: 35px !important
+}
+
+.margintop40 {
+    margin-top: 40px !important
+}
+
+.marginbottom0 {
+    margin-bottom: 0 !important
+}
+
+.marginbottom1 {
+    margin-bottom: 1px !important
+}
+
+.marginbottom2 {
+    margin-bottom: 2px !important
+}
+
+.marginbottom3 {
+    margin-bottom: 3px !important
+}
+
+.marginbottom4 {
+    margin-bottom: 4px !important
+}
+
+.marginbottom5 {
+    margin-bottom: 5px !important
+}
+
+.marginbottom6 {
+    margin-bottom: 6px !important
+}
+
+.marginbottom7 {
+    margin-bottom: 7px !important
+}
+
+.marginbottom8 {
+    margin-bottom: 8px !important
+}
+
+.marginbottom9 {
+    margin-bottom: 9px !important
+}
+
+.marginbottom10 {
+    margin-bottom: 10px !important
+}
+
+.marginbottom15 {
+    margin-bottom: 15px !important
+}
+
+.marginbottom20 {
+    margin-bottom: 20px !important
+}
+
+.marginbottom25 {
+    margin-bottom: 25px !important
+}
+
+.marginbottom30 {
+    margin-bottom: 30px !important
+}
+
+.marginbottom35 {
+    margin-bottom: 35px !important
+}
+
+.marginbottom40 {
+    margin-bottom: 40px !important
+}
+/* ///////////////// MEDIA ///////////////// */
+@media only screen and (max-width: 1270px) {
+    #skyscraper {
+        display: none
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .separador {
+        border-left: none;
+        padding: 0px !important
+    }
+
+    .card-title2 {
+        font-size: 1.2rem;
+        line-height: 19px
+    }
+
+    .no-padding-990 {
+        padding: 0px !important
+    }
+
+    .no-margin-990 {
+        margin: 0 !important
+    }
+
+    .no-paddingleft-990 {
+        padding-left: 0px !important
+    }
+
+    .truncate03-990 {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        overflow: hidden
+    }
+
+    .truncate04-990 {
+        display: -webkit-box !important;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 4;
+        overflow: hidden
+    }
+
+    .foto6-4-990:before {
+        padding-top: 100%
+    }
+
+    .fotoh-990 {
+        width: 150% !important;
+        max-width: 200% !important;
+        left: -30%
+    }
+
+    .nota-height {
+        height: auto !important
+    }
+
+    .slider .slides li .caption2 {
+        bottom: 22%;
+        left: 10%;
+        width: 90%
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .truncate03-800 {
+        display: -webkit-box !important;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        overflow: hidden
+    }
+
+    .truncate04-800 {
+        display: -webkit-box !important;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 4;
+        overflow: hidden
+    }
+
+    .truncate05-800 {
+        display: -webkit-box !important;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 5;
+        overflow: hidden
+    }
+
+    .marginlat25-800 {
+        margin: 25px 0
+    }
+
+    .slider .slides li .caption2 {
+        bottom: 22%;
+        left: 6%;
+        width: 90%
+    }
+
+    .fz50 {
+        font-size: 3rem !important
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .galeria1 {
+        padding-top: 65% !important;
+        margin-bottom: 2% !important
+    }
+
+    .datepicker-modal {
+        width: 100%
+    }
+
+    .modal {
+        width: 100%
+    }
+
+    .leyenda {
+        padding: 10px 10px
+    }
+
+    .cursornoticia {
+        padding: 0
+    }
+
+        .cursornoticia:hover {
+            background: #fff
+        }
+
+    .scrolls {
+        height: 250px
+    }
+
+    .leyenda {
+        margin-bottom: 15px
+    }
+
+    .middle-indicator {
+        top: 36%
+    }
+
+    .card-title2 {
+        font-size: 1.3rem
+    }
+
+    .card-600 {
+        -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2) !important;
+        box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2) !important
+    }
+
+    .paddingtop5-600 {
+        padding: 5px 0px 0px 0px !important
+    }
+
+    .paddingtop10-600 {
+        padding: 10px 0px 0px 0px !important
+    }
+
+    .truncate02-600 {
+        display: -webkit-box !important;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden
+    }
+
+    .truncate03-600 {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        overflow: hidden
+    }
+
+    .truncate04-600 {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 4;
+        overflow: hidden
+    }
+
+    .truncate05-600 {
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 5;
+        overflow: hidden
+    }
+
+    .margintopbottom20-600 {
+        margin: 20px 0 !important
+    }
+
+    .marginbottom15-600 {
+        margin-bottom: 15px !important
+    }
+
+    .marginbottom20-600 {
+        margin-bottom: 20px !important
+    }
+
+    .no-padding-600 {
+        padding: 0 !important;
+        line-height: 16px !important
+    }
+
+    .paddinglat5-600 {
+        padding: 0 5px !important
+    }
+
+    .paddinglat9-600 {
+        padding: 0 9px !important
+    }
+
+    .no-paddingleft-600 {
+        padding-left: 0 !important
+    }
+
+    .paddinglat10-600 {
+        padding: 0 10px !important
+    }
+
+    .paddinglat20-600 {
+        padding: 0 20px !important
+    }
+
+    .fz11-600 {
+        font-size: 11px;
+        line-height: 15px !important
+    }
+
+    .transparent-600 {
+        background-color: transparent !important;
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important
+    }
+
+    .no-margin-600 {
+        margin: 0 !important
+    }
+
+    .white-600 {
+        background: white !important
+    }
+
+    .textaligncenter-600 {
+        text-align: center !important
+    }
+
+    .borderadius6-600 {
+        border-radius: 6px;
+        overflow: hidden;
+        margin: 15px 0
+    }
+
+    .z-depth-03-600 {
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important
+    }
+
+    .card-title4 {
+        font-size: 2.0rem !important;
+        line-height: 28px !important
+    }
+
+    .slider .slides li .caption2 {
+        bottom: 17%;
+        left: 6%;
+        width: 90%
+    }
+
+    .lh22-600 {
+        line-height: 22px
+    }
+
+    .fz50 {
+        font-size: 2.6rem !important
+    }
+
+    a.waves-effect.waves-light.btn.light-orange.width100.z-depth-0 {
+        font-size: .8rem !important;
+        height: auto !important;
+        margin: 0px !important
+    }
+}
+/* ///////// MEDIA 550 /////////*/
+@media only screen and (max-width: 550px) {
+    .fotonoticiah {
+        width: 150% !important;
+        max-width: 200% !important;
+        left: -30%
+    }
+
+    .fotonoticia:before {
+        padding-top: 100%
+    }
+
+    .card-title4 {
+        font-size: 1.9rem !important;
+        line-height: 27px !important
+    }
+
+    .fz50 {
+        font-size: 2.6rem !important
+    }
+
+    .truncate02-450 {
+        display: -webkit-box !important;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden
+    }
+
+    .truncate03-450 {
+        display: -webkit-box !important;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        overflow: hidden
+    }
+
+    .truncate04-450 {
+        display: -webkit-box !important;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 4;
+        overflow: hidden
+    }
+
+    .truncate05-450 {
+        display: -webkit-box !important;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 5;
+        overflow: hidden
+    }
+
+    .card-title4 {
+        font-size: 1.8rem !important;
+        line-height: 26px !important
+    }
+
+    .displaynone-450 {
+        display: none !important
+    }
+
+    .card-title2 {
+        font-size: 1.4rem;
+        line-height: 25px
+    }
+
+    .fz50 {
+        font-size: 2.2rem !important
+    }
+}
+/* ///////// MEDIA 390 /////////*/
+@media only screen and (max-width: 390px) {
+    .galeria1 {
+        padding-top: 80% !important;
+        margin-bottom: 2% !important
+    }
+
+    .fz50 {
+        font-size: 2.0rem !important
+    }
+
+    .card-title4 {
+        font-size: 1.7rem !important;
+        line-height: 25px !important
+    }
+
+    .card-title2 {
+        font-size: 1.2rem;
+        line-height: 20px !important
+    }
+
+    .leyenda {
+    }
+
+    .middle-indicator {
+        top: 26%
+    }
+
+    .elperuano_blanco_logo {
+        max-width: 140px;
+        margin-top: 10px !important
+    }
+
+    .fotonoticiah {
+        width: 150% !important;
+        max-width: 200% !important;
+        left: -30%
+    }
+
+    .fotonoticia:before {
+        padding-top: 100%
+    }
+
+    .foto6-4-990:before {
+        padding-top: 100%
+    }
+
+    .fotoh-990 {
+        width: 150% !important;
+        max-width: 200% !important;
+        left: -30%
+    }
+
+    .truncate02-390 {
+        display: -webkit-box !important;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+        overflow: hidden
+    }
+
+    .no-paddingbottom-390 {
+        padding-bottom: 0 !important
+    }
+
+    .displaynone-390 {
+        display: none !important
+    }
+}
+/* ///////// SVG /////////*/
+svg {
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    display: inline-block;
+    color: rgb(183, 27, 28);
+    display: inline-block
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    background: white;
+    margin-bottom: 5px;
+    width: 100%;
+    border: 3px solid white;
+    border-radius: 2px
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center
+}
+
+:root {
+    --swiper-theme-color: #b71c1d;
+    --swiper-navigation-size: 44px
+}
+
+.swiper-container {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1
+}
+
+.swiper-wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    transition-property: transform;
+    box-sizing: content-box
+}
+
+.swiper-slide {
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition-property: transform
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    position: absolute;
+    top: 50%;
+    width: calc(var(--swiper-navigation-size) / 44 * 27);
+    height: var(--swiper-navigation-size);
+    margin-top: calc(-1 * var(--swiper-navigation-size) / 2);
+    z-index: 10;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--swiper-navigation-color, var(--swiper-theme-color))
+}
+
+    .swiper-button-prev:after,
+    .swiper-button-next:after {
+        font-family: swiper-icons;
+        font-size: var(--swiper-navigation-size);
+        text-transform: none !important;
+        letter-spacing: 0;
+        text-transform: none;
+        font-variant: initial
+    }
+
+.swiper-button-prev,
+.swiper-container-rtl .swiper-button-next {
+    left: 0;
+    right: auto
+}
+
+    .swiper-button-prev:after,
+    .swiper-container-rtl .swiper-button-next:after {
+    }
+
+.swiper-button-next,
+.swiper-container-rtl .swiper-button-prev {
+    right: 0;
+    left: auto
+}
+
+    .swiper-button-next:after,
+    .swiper-container-rtl .swiper-button-prev:after {
+    }
+
+.swiper-pagination {
+    margin-top: 5px;
+    text-align: center;
+    transition: 300ms opacity;
+    transform: translate3d(0, 0, 0);
+    z-index: 10
+}
+
+.swiper-pagination-fraction,
+.swiper-pagination-custom,
+.swiper-container-horizontal > .swiper-pagination-bullets {
+    bottom: 10px;
+    left: 0;
+    width: 100%
+}
+
+.swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    border-radius: 100%;
+    background: #000;
+    opacity: 0.2
+}
+
+button.swiper-pagination-bullet {
+    border: none;
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none
+}
+
+.swiper-pagination-clickable .swiper-pagination-bullet {
+    cursor: pointer
+}
+
+.swiper-pagination-bullet-active {
+    opacity: 1;
+    background: var(--swiper-pagination-color, var(--swiper-theme-color))
+}
+
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 4px
+}
+
+linq {
+    color: #bf360d !important;
+    font-size: 2em;
+    font-weight: 600
+}
+
+    linq a:visited {
+        color: rgb(183, 27, 28) !important;
+        text-decoration: underline;
+        -webkit-tap-highlight-color: transparent
+    }
+
+
+@keyframes loading {
+    to {
+        background-position: 350% 0, var(--img-position), var(--seccion-position), var(--title-1-position), var(--title-2-position), var(--subtitle-1-position), var(--subtitle-2-position), var(--subtitle-3-position), var(--button-1-position), var(--button-2-position), var(--button-3-position), 0 0;
+    }
+}
+/* ///////// HEADER /////////*/
+.skeleton-header {
+    --card: linear-gradient(to bottom, #ffffff00 100%, transparent 0%);
+    --card-height: 100%;
+    --img: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+    --img-height: 50%;
+    --img-width: 40%;
+    --img-position: 50% 15%;
+    --seccion: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+    --seccion-height: 25%;
+    --seccion-width: 100%;
+    --seccion-position: 100% 100%;
+    --button: linear-gradient(to bottom, #dbdbdb 100%, transparent 0%);
+    --button-height: 17%;
+    --button-1-width: 4%;
+    --button-1-position: 98% 8%;
+    --button-2-width: 4%;
+    --button-2-position: 93% 8%;
+    --button-3-width: 4%;
+    --button-3-position: 88% 8%;
+    --title: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+    --title-height: 23%;
+    --title-1-width: 15%;
+    --title-1-position: 2% 56%;
+    --title-2-width: 22%;
+    --title-2-position: 98% 46%;
+    --subtitle: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+    --subtitle-height: 6%;
+    --subtitle-1-width: 10%;
+    --subtitle-1-position: 2% 8%;
+    --subtitle-2-width: 10%;
+    --subtitle-2-position: 2% 20%;
+    --subtitle-3-width: 5%;
+    --subtitle-3-position: 2% 33%;
+    --blur-width: 60%;
+    --blur-size: var(--blur-width) var(--card-height)
+}
+
+    .skeleton-header .skheader:empty::after {
+        content: "";
+        display: block;
+        width: 100%;
+        margin: auto;
+        height: 180px;
+        -webkit-transition: all 0.6s ease;
+        -moz-transition: all 0.6s ease;
+        -o-transition: all 0.6s ease;
+        transition: all 0.6s ease;
+        background-image: linear-gradient(90deg, rgb(255 255 255 / 0%) 0, #ffffff45 50%, rgb(255 255 255 / 0%) 100%), var(--img), var(--seccion), var(--title), var(--title), var(--subtitle), var(--subtitle), var(--subtitle), var(--button), var(--button), var(--button), var(--card);
+        background-size: var(--blur-size), var(--img-width) var(--img-height), var(--seccion-width) var(--seccion-height), var(--title-1-width) var(--title-height), var(--title-2-width) var(--title-height), var(--subtitle-1-width) var(--subtitle-height), var(--subtitle-2-width) var(--subtitle-height), var(--subtitle-3-width) var(--subtitle-height), var(--button-1-width) var(--button-height), var(--button-2-width) var(--button-height), var(--button-3-width) var(--button-height), 100% 100%;
+        background-position: -150% 0, var(--img-position), var(--seccion-position), var(--title-1-position), var(--title-2-position), var(--subtitle-1-position), var(--subtitle-2-position), var(--subtitle-3-position), var(--button-1-position), var(--button-2-position), var(--button-3-position), 0 0;
+        background-repeat: no-repeat;
+        animation: loading 1.9s infinite linear;
+    }
+/* ///////// TITULAR /////////*/
+.skeleton-titular {
+    --card: linear-gradient(to bottom, #ffffff00 100%, transparent 0%);
+    --card-height: 100%;
+    --img: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+    --img-height: 79%;
+    --img-width: 100%;
+    --img-position: 0 0;
+    --title: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+    --title-height: 6%;
+    --title-1-width: 100%;
+    --title-1-position: 0 65%;
+    --title-2-width: 70%;
+    --title-2-position: 0 75%;
+    --subtitle: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+    --subtitle-height: 4%;
+    --subtitle-1-width: 100%;
+    --subtitle-1-position: 0 86%;
+    --subtitle-2-width: 100%;
+    --subtitle-2-position: 0 93%;
+    --subtitle-3-width: 70%;
+    --subtitle-3-position: 0% 100%;
+    --blur-width: 60%;
+    --blur-size: var(--blur-width) var(--card-height);
+}
+
+    .skeleton-titular .sktitular:empty::after {
+        content: "";
+        display: block;
+        width: 94%;
+        margin: auto;
+        height: 425px;
+        -webkit-transition: all 0.6s ease;
+        -moz-transition: all 0.6s ease;
+        -o-transition: all 0.6s ease;
+        transition: all 0.6s ease;
+        background-image: linear-gradient(90deg, rgba(51, 51, 51, 0) 0, #ffffffc2 50%, rgba(51, 51, 51, 0) 100%), var(--img), var(--title), var(--title), var(--subtitle), var(--subtitle), var(--subtitle), var(--card);
+        background-size: var(--blur-size), var(--img-width) var(--img-height), var(--title-1-width) var(--title-height), var(--title-2-width) var(--title-height), var(--subtitle-1-width) var(--subtitle-height), var(--subtitle-2-width) var(--subtitle-height), var(--subtitle-3-width) var(--subtitle-height), 100% 100%;
+        background-position: -150% 0, var(--img-position), var(--title-1-position), var(--title-2-position), var(--subtitle-1-position), var(--subtitle-2-position), var(--subtitle-3-position), 0 0;
+        background-repeat: no-repeat;
+        animation: 2s linear infinite;
+    }
+/* ///////// PUBLICACIONES /////////*/
+.skeleton-publicaciones {
+    --card: linear-gradient(to bottom, #ffffff00 100%, transparent 0%);
+    --card-height: 100%;
+    --img: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+    --img-height: 90%;
+    --img-width: 49%;
+    --img-position: 0 100%;
+    --seccion: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+    --seccion-height: 7%;
+    --seccion-width: 60%;
+    --seccion-position: 0 0%;
+    --button: linear-gradient(to bottom, #dbdbdb 100%, transparent 0%);
+    --button-height: 13%;
+    --button-1-width: 48%;
+    --button-1-position: 100% 12%;
+    --button-2-width: 48%;
+    --button-2-position: 100% 30%;
+    --button-3-width: 48%;
+    --button-3-position: 100% 48%;
+    --subtitle: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+    --subtitle-height: 13%;
+    --subtitle-1-width: 48%;
+    --subtitle-1-position: 100% 66%;
+    --subtitle-2-width: 48%;
+    --subtitle-2-position: 100% 83%;
+    --subtitle-3-width: 48%;
+    --subtitle-3-position: 100% 100%;
+    --blur-width: 60%;
+    --blur-size: var(--blur-width) var(--card-height)
+}
+
+    .skeleton-publicaciones .skpublicaciones:empty::after {
+        content: "";
+        display: block;
+        width: 94%;
+        margin: auto;
+        height: 425px;
+        -webkit-transition: all 0.6s ease;
+        -moz-transition: all 0.6s ease;
+        -o-transition: all 0.6s ease;
+        transition: all 0.6s ease;
+        background-image: linear-gradient(90deg, rgba(51, 51, 51, 0) 0, #ffffff45 50%, rgba(51, 51, 51, 0) 100%), var(--img), var(--seccion), var(--subtitle), var(--subtitle), var(--subtitle), var(--button), var(--button), var(--button), var(--card);
+        background-size: var(--blur-size), var(--img-width) var(--img-height), var(--seccion-width) var(--seccion-height), var(--subtitle-1-width) var(--subtitle-height), var(--subtitle-2-width) var(--subtitle-height), var(--subtitle-3-width) var(--subtitle-height), var(--button-1-width) var(--button-height), var(--button-2-width) var(--button-height), var(--button-3-width) var(--button-height), 100% 100%;
+        background-position: -150% 0, var(--img-position), var(--seccion-position), var(--subtitle-1-position), var(--subtitle-2-position), var(--subtitle-3-position), var(--button-1-position), var(--button-2-position), var(--button-3-position), 0 0;
+        background-repeat: no-repeat;
+        animation: loading 1.9s infinite linear:
+    }
+/* ///////// DESTACADA /////////*/
+.skeleton-destacada {
+    --card: linear-gradient(to bottom, #ffffff00 100%, transparent 0%);
+    --card-height: 100%;
+    --img: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+    --img-height: 50%;
+    --img-width: 100%;
+    --img-position: 0 0;
+    --seccion: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+    --seccion-height: 4%;
+    --seccion-width: 30%;
+    --seccion-position: 0 55%;
+    --button: linear-gradient(to bottom, #dbdbdb 100%, transparent 0%);
+    --button-height: 4%;
+    --button-1-width: 5%;
+    --button-1-position: 100% 55%;
+    --button-2-width: 5%;
+    --button-2-position: 91% 55%;
+    --button-3-width: 5%;
+    --button-3-position: 81% 55%;
+    --title: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+    --title-height: 6%;
+    --title-1-width: 100%;
+    --title-1-position: 0 65%;
+    --title-2-width: 70%;
+    --title-2-position: 0 75%;
+    --subtitle: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+    --subtitle-height: 4%;
+    --subtitle-1-width: 100%;
+    --subtitle-1-position: 0 85%;
+    --subtitle-2-width: 100%;
+    --subtitle-2-position: 0 93%;
+    --subtitle-3-width: 40%;
+    --subtitle-3-position: 0 100%;
+    --blur-width: 60%;
+    --blur-size: var(--blur-width) var(--card-height)
+}
+
+    .skeleton-destacada .skdestacada:empty::after {
+        content: "";
+        display: block;
+        width: 94%;
+        margin: auto;
+        height: 330px;
+        -webkit-transition: all 0.6s ease;
+        -moz-transition: all 0.6s ease;
+        -o-transition: all 0.6s ease;
+        transition: all 0.6s ease;
+        background-image: linear-gradient(90deg, rgb(255 255 255 / 0%)0, #ffffff45 50%, rgb(255 255 255 / 0%) 100%), var(--img), var(--seccion), var(--title), var(--title), var(--subtitle), var(--subtitle), var(--subtitle), var(--button), var(--button), var(--button), var(--card);
+        background-size: var(--blur-size), var(--img-width) var(--img-height), var(--seccion-width) var(--seccion-height), var(--title-1-width) var(--title-height), var(--title-2-width) var(--title-height), var(--subtitle-1-width) var(--subtitle-height), var(--subtitle-2-width) var(--subtitle-height), var(--subtitle-3-width) var(--subtitle-height), var(--button-1-width) var(--button-height), var(--button-2-width) var(--button-height), var(--button-3-width) var(--button-height), 100% 100%;
+        background-position: -150% 0, var(--img-position), var(--seccion-position), var(--title-1-position), var(--title-2-position), var(--subtitle-1-position), var(--subtitle-2-position), var(--subtitle-3-position), var(--button-1-position), var(--button-2-position), var(--button-3-position), 0 0;
+        background-repeat: no-repeat;
+        animation: loading 1.9s infinite linear;
+    }
+/* ///////// GALERIA /////////*/
+.skeleton-galeria {
+    --card: linear-gradient(to bottom, #ffffff00 100%, transparent 0%);
+    --card-height: 100%;
+    --img: linear-gradient(to right, #484848 100%, transparent 0%);
+    --img-height: 78%;
+    --img-width: 100%;
+    --img-position: 0 73%;
+    --seccion: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+    --seccion-height: 0%;
+    --seccion-width: 0%;
+    --seccion-position: 0 0%;
+    --button: linear-gradient(to bottom, #484848 100%, transparent 0%);
+    --button-height: 1%;
+    --button-1-width: 1%;
+    --button-1-position: 47% 98%;
+    --button-2-width: 1%;
+    --button-2-position: 50% 98%;
+    --button-3-width: 1%;
+    --button-3-position: 53% 98%;
+    --title: linear-gradient(to right, #484848 100%, transparent 0%);
+    --title-height: 4%;
+    --title-1-width: 100%;
+    --title-1-position: 0% 4%;
+    --title-2-width: 0%;
+    --title-2-position: 0 0%;
+    --subtitle: linear-gradient(to right, #484848 100%, transparent 0%);
+    --subtitle-height: 1%;
+    --subtitle-1-width: 100%;
+    --subtitle-1-position: 0 10%;
+    --subtitle-2-width: 80%;
+    --subtitle-2-position: 0 13%;
+    --subtitle-3-width: 0%;
+    --subtitle-3-position: 0 0%;
+    --blur-width: 60%;
+    --blur-size: var(--blur-width) var(--card-height)
+}
+
+    .skeleton-galeria .skgaleria:empty::after {
+        content: "";
+        display: block;
+        width: 100%;
+        margin: auto;
+        height: 700px;
+        -webkit-transition: all 0.6s ease;
+        -moz-transition: all 0.6s ease;
+        -o-transition: all 0.6s ease;
+        transition: all 0.6s ease;
+        background-image: linear-gradient(90deg, rgb(255 255 255 / 0%)0, #ffffff0d 50%, rgb(0 0 0 / 0%) 100%), var(--img), var(--seccion), var(--title), var(--title), var(--subtitle), var(--subtitle), var(--subtitle), var(--button), var(--button), var(--button), var(--card);
+        background-size: var(--blur-size), var(--img-width) var(--img-height), var(--seccion-width) var(--seccion-height), var(--title-1-width) var(--title-height), var(--title-2-width) var(--title-height), var(--subtitle-1-width) var(--subtitle-height), var(--subtitle-2-width) var(--subtitle-height), var(--subtitle-3-width) var(--subtitle-height), var(--button-1-width) var(--button-height), var(--button-2-width) var(--button-height), var(--button-3-width) var(--button-height), 100% 100%;
+        background-position: -150% 0, var(--img-position), var(--seccion-position), var(--title-1-position), var(--title-2-position), var(--subtitle-1-position), var(--subtitle-2-position), var(--subtitle-3-position), var(--button-1-position), var(--button-2-position), var(--button-3-position), 0 0;
+        background-repeat: no-repeat;
+        animation: loading 1.9s infinite linear;
+    }
+/* ///////// SECCIONES /////////*/
+.skeleton-secciones {
+    --card: linear-gradient(to bottom, #ffffff00 100%, transparent 0%);
+    --card-height: 100%;
+    --img: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+    --img-height: 100%;
+    --img-width: 24%;
+    --img-position: 0 0;
+    --seccion: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+    --seccion-height: 9%;
+    --seccion-width: 15%;
+    --seccion-position: 30% 0;
+    --button: linear-gradient(to bottom, #dbdbdb 100%, transparent 0%);
+    --button-height: 0%;
+    --button-1-width: 0%;
+    --button-1-position: 0% 0%;
+    --button-2-width: 0%;
+    --button-2-position: 0% 0%;
+    --button-3-width: 0%;
+    --button-3-position: 0% 0%;
+    --title: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+    --title-height: 14%;
+    --title-1-width: 74%;
+    --title-1-position: 100% 20%;
+    --title-2-width: 68%;
+    --title-2-position: 81% 43%;
+    --subtitle: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+    --subtitle-height: 6%;
+    --subtitle-1-width: 74%;
+    --subtitle-1-position: 100% 62%;
+    --subtitle-2-width: 74%;
+    --subtitle-2-position: 100% 74%;
+    --subtitle-3-width: 30%;
+    --subtitle-3-position: 37% 86%;
+    --blur-width: 60%;
+    --blur-size: var(--blur-width) var(--card-height)
+}
+
+    .skeleton-secciones .sksecciones:empty::after {
+        content: "";
+        display: block;
+        width: 98%;
+        margin: auto;
+        height: 150px;
+        -webkit-transition: all 0.6s ease;
+        -moz-transition: all 0.6s ease;
+        -o-transition: all 0.6s ease;
+        transition: all 0.6s ease;
+        background-image: linear-gradient(90deg, rgba(51, 51, 51, 0) 0, #ffffff45 50%, rgba(51, 51, 51, 0) 100%), var(--img), var(--seccion), var(--title), var(--title), var(--subtitle), var(--subtitle), var(--subtitle), var(--button), var(--button), var(--button), var(--card);
+        background-size: var(--blur-size), var(--img-width) var(--img-height), var(--seccion-width) var(--seccion-height), var(--title-1-width) var(--title-height), var(--title-2-width) var(--title-height), var(--subtitle-1-width) var(--subtitle-height), var(--subtitle-2-width) var(--subtitle-height), var(--subtitle-3-width) var(--subtitle-height), var(--button-1-width) var(--button-height), var(--button-2-width) var(--button-height), var(--button-3-width) var(--button-height), 100% 100%;
+        background-position: -150% 0, var(--img-position), var(--seccion-position), var(--title-1-position), var(--title-2-position), var(--subtitle-1-position), var(--subtitle-2-position), var(--subtitle-3-position), var(--button-1-position), var(--button-2-position), var(--button-3-position), 0 0;
+        background-repeat: no-repeat;
+        animation: loading 1.9s infinite linear;
+    }
+/* ///////// BANNER /////////*/
+.skeleton-banner {
+    --card: linear-gradient(to bottom, #ffffff00 100%, transparent 0%);
+    --card-height: 100%;
+    --img: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+    --img-height: 85%;
+    --img-width: 100%;
+    --img-position: 0 0;
+    --seccion: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+    --seccion-height: 0%;
+    --seccion-width: 0%;
+    --seccion-position: 0 0%;
+    --button: linear-gradient(to bottom, #dbdbdb 100%, transparent 0%);
+    --button-height: 0%;
+    --button-1-width: 0%;
+    --button-1-position: 0% 0%;
+    --button-2-width: 0%;
+    --button-2-position: 0% 0%;
+    --button-3-width: 0%;
+    --button-3-position: 0% 0%;
+    --title: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+    --title-height: 0%;
+    --title-1-width: 0%;
+    --title-1-position: 0 0%;
+    --title-2-width: 0%;
+    --title-2-position: 0 0%;
+    --subtitle: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+    --subtitle-height: 0%;
+    --subtitle-1-width: 0%;
+    --subtitle-1-position: 0 0%;
+    --subtitle-2-width: 0%;
+    --subtitle-2-position: 0 0%;
+    --subtitle-3-width: 0%;
+    --subtitle-3-position: 0 0%;
+    --blur-width: 60%;
+    --blur-size: var(--blur-width) var(--card-height)
+}
+
+    .skeleton-banner .skbanner:empty::after {
+        content: "";
+        display: block;
+        width: 100%;
+        margin: auto;
+        height: 130px;
+        -webkit-transition: all 0.6s ease;
+        -moz-transition: all 0.6s ease;
+        -o-transition: all 0.6s ease;
+        transition: all 0.6s ease;
+        background-image: linear-gradient(90deg, rgb(255 255 255 / 0%)0, #ffffff45 50%, rgb(255 255 255 / 0%) 100%), var(--img), var(--seccion), var(--title), var(--title), var(--subtitle), var(--subtitle), var(--subtitle), var(--button), var(--button), var(--button), var(--card);
+        background-size: var(--blur-size), var(--img-width) var(--img-height), var(--seccion-width) var(--seccion-height), var(--title-1-width) var(--title-height), var(--title-2-width) var(--title-height), var(--subtitle-1-width) var(--subtitle-height), var(--subtitle-2-width) var(--subtitle-height), var(--subtitle-3-width) var(--subtitle-height), var(--button-1-width) var(--button-height), var(--button-2-width) var(--button-height), var(--button-3-width) var(--button-height), 100% 100%;
+        background-position: -150% 0, var(--img-position), var(--seccion-position), var(--title-1-position), var(--title-2-position), var(--subtitle-1-position), var(--subtitle-2-position), var(--subtitle-3-position), var(--button-1-position), var(--button-2-position), var(--button-3-position), 0 0;
+        background-repeat: no-repeat;
+        animation: loading 1.9s infinite linear;
+    }
+/* ///////// SUPLEMENTO /////////*/
+.skeleton-suplemento {
+    --card: linear-gradient(to bottom, #ffffff00 100%, transparent 0%);
+    --card-height: 100%;
+    --img: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+    --img-height: 95%;
+    --img-width: 100%;
+    --img-position: 0 0;
+    --seccion: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+    --seccion-height: 0%;
+    --seccion-width: 0%;
+    --seccion-position: 0 0%;
+    --button: linear-gradient(to bottom, #dbdbdb 100%, transparent 0%);
+    --button-height: 0%;
+    --button-1-width: 0%;
+    --button-1-position: 0% 0%;
+    --button-2-width: 0%;
+    --button-2-position: 0% 0%;
+    --button-3-width: 0%;
+    --button-3-position: 0% 0%;
+    --title: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+    --title-height: 0%;
+    --title-1-width: 0%;
+    --title-1-position: 0 0%;
+    --title-2-width: 0%;
+    --title-2-position: 0 0%;
+    --subtitle: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+    --subtitle-height: 0%;
+    --subtitle-1-width: 0%;
+    --subtitle-1-position: 0 0%;
+    --subtitle-2-width: 0%;
+    --subtitle-2-position: 0 0%;
+    --subtitle-3-width: 0%;
+    --subtitle-3-position: 0 0%;
+    --blur-width: 60%;
+    --blur-size: var(--blur-width) var(--card-height)
+}
+
+    .skeleton-suplemento .sksuplemento:empty::after {
+        content: "";
+        display: block;
+        width: 100%;
+        margin: auto;
+        height: 400px;
+        -webkit-transition: all 0.6s ease;
+        -moz-transition: all 0.6s ease;
+        -o-transition: all 0.6s ease;
+        transition: all 0.6s ease;
+        background-image: linear-gradient(90deg, rgb(255 255 255 / 0%)0, #ffffff45 50%, rgb(255 255 255 / 0%) 100%), var(--img), var(--seccion), var(--title), var(--title), var(--subtitle), var(--subtitle), var(--subtitle), var(--button), var(--button), var(--button), var(--card);
+        background-size: var(--blur-size), var(--img-width) var(--img-height), var(--seccion-width) var(--seccion-height), var(--title-1-width) var(--title-height), var(--title-2-width) var(--title-height), var(--subtitle-1-width) var(--subtitle-height), var(--subtitle-2-width) var(--subtitle-height), var(--subtitle-3-width) var(--subtitle-height), var(--button-1-width) var(--button-height), var(--button-2-width) var(--button-height), var(--button-3-width) var(--button-height), 100% 100%;
+        background-position: -150% 0, var(--img-position), var(--seccion-position), var(--title-1-position), var(--title-2-position), var(--subtitle-1-position), var(--subtitle-2-position), var(--subtitle-3-position), var(--button-1-position), var(--button-2-position), var(--button-3-position), 0 0;
+        background-repeat: no-repeat;
+        animation: loading 1.9s infinite linear;
+    }
+/* ///////// COVER /////////*/
+.skeleton-cover {
+    --card: linear-gradient(to bottom, #ffffff00 100%, transparent 0%);
+    --card-height: 100%;
+    --img: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+    --img-height: 62%;
+    --img-width: 90%;
+    --img-position: 50% 20%;
+    --seccion: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+    --seccion-height: 4%;
+    --seccion-width: 50%;
+    --seccion-position: 50% 80%;
+    --button: linear-gradient(to bottom, #dbdbdb 100%, transparent 0%);
+    --button-height: 0%;
+    --button-1-width: 0%;
+    --button-1-position: 0% 0%;
+    --button-2-width: 0%;
+    --button-2-position: 0% 0%;
+    --button-3-width: 0%;
+    --button-3-position: 0% 0%;
+    --title: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+    --title-height: 10%;
+    --title-1-width: 80%;
+    --title-1-position: 50% 95%;
+    --title-2-width: 0%;
+    --title-2-position: 0 0%;
+    --subtitle: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+    --subtitle-height: 0%;
+    --subtitle-1-width: 0%;
+    --subtitle-1-position: 0 0%;
+    --subtitle-2-width: 0%;
+    --subtitle-2-position: 0 0%;
+    --subtitle-3-width: 0%;
+    --subtitle-3-position: 0 0%;
+    --blur-width: 60%;
+    --blur-size: var(--blur-width) var(--card-height)
+}
+
+    .skeleton-cover .skcover:empty::after {
+        content: "";
+        display: block;
+        width: 94%;
+        margin: auto;
+        height: 380px;
+        -webkit-transition: all 0.6s ease;
+        -moz-transition: all 0.6s ease;
+        -o-transition: all 0.6s ease;
+        transition: all 0.6s ease;
+        background-image: linear-gradient(90deg, rgb(255 255 255 / 0%)0, #ffffff45 50%, rgb(255 255 255 / 0%) 100%), var(--img), var(--seccion), var(--title), var(--title), var(--subtitle), var(--subtitle), var(--subtitle), var(--button), var(--button), var(--button), var(--card);
+        background-size: var(--blur-size), var(--img-width) var(--img-height), var(--seccion-width) var(--seccion-height), var(--title-1-width) var(--title-height), var(--title-2-width) var(--title-height), var(--subtitle-1-width) var(--subtitle-height), var(--subtitle-2-width) var(--subtitle-height), var(--subtitle-3-width) var(--subtitle-height), var(--button-1-width) var(--button-height), var(--button-2-width) var(--button-height), var(--button-3-width) var(--button-height), 100% 100%;
+        background-position: -150% 0, var(--img-position), var(--seccion-position), var(--title-1-position), var(--title-2-position), var(--subtitle-1-position), var(--subtitle-2-position), var(--subtitle-3-position), var(--button-1-position), var(--button-2-position), var(--button-3-position), 0 0;
+        background-repeat: no-repeat;
+        animation: loading 1.9s infinite linear;
+    }
+/* ///////// NOTA /////////*/
+.skeleton-nota {
+    --card: linear-gradient(to bottom, #ffffff00 100%, transparent 0%);
+    --card-height: 100%;
+    --img: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+    --img-height: 42%;
+    --img-width: 100%;
+    --img-position: 0 0;
+    --seccion: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+    --seccion-height: 4%;
+    --seccion-width: 30%;
+    --seccion-position: 0 48%;
+    --button: linear-gradient(to bottom, #dbdbdb 100%, transparent 0%);
+    --button-height: 4%;
+    --button-1-width: 5%;
+    --button-1-position: 100% 48%;
+    --button-2-width: 5%;
+    --button-2-position: 91% 48%;
+    --button-3-width: 5%;
+    --button-3-position: 81% 48%;
+    --title: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+    --title-height: 6%;
+    --title-1-width: 100%;
+    --title-1-position: 0 59%;
+    --title-2-width: 70%;
+    --title-2-position: 0 69%;
+    --subtitle: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+    --subtitle-height: 4%;
+    --subtitle-1-width: 100%;
+    --subtitle-1-position: 0 78%;
+    --subtitle-2-width: 100%;
+    --subtitle-2-position: 0 86%;
+    --subtitle-3-width: 40%;
+    --subtitle-3-position: 0 95%;
+    --blur-width: 60%;
+    --blur-size: var(--blur-width) var(--card-height)
+}
+
+    .skeleton-nota .sknota:empty::after {
+        content: "";
+        display: block;
+        width: 94%;
+        margin: auto;
+        height: 380px;
+        -webkit-transition: all 0.6s ease;
+        -moz-transition: all 0.6s ease;
+        -o-transition: all 0.6s ease;
+        transition: all 0.6s ease;
+        background-image: linear-gradient(90deg, rgba(51, 51, 51, 0) 0, #ffffff45 50%, rgba(51, 51, 51, 0) 100%), var(--img), var(--seccion), var(--title), var(--title), var(--subtitle), var(--subtitle), var(--subtitle), var(--button), var(--button), var(--button), var(--card);
+        background-size: var(--blur-size), var(--img-width) var(--img-height), var(--seccion-width) var(--seccion-height), var(--title-1-width) var(--title-height), var(--title-2-width) var(--title-height), var(--subtitle-1-width) var(--subtitle-height), var(--subtitle-2-width) var(--subtitle-height), var(--subtitle-3-width) var(--subtitle-height), var(--button-1-width) var(--button-height), var(--button-2-width) var(--button-height), var(--button-3-width) var(--button-height), 100% 100%;
+        background-position: -150% 0, var(--img-position), var(--seccion-position), var(--title-1-position), var(--title-2-position), var(--subtitle-1-position), var(--subtitle-2-position), var(--subtitle-3-position), var(--button-1-position), var(--button-2-position), var(--button-3-position), 0 0;
+        background-repeat: no-repeat;
+        animation: loading 1.9s infinite linear;
+    }
+/* ///////// SECCIONNOTA /////////*/
+.skeleton-seccionnota {
+    --card: linear-gradient(to bottom, #ffffff00 100%, transparent 0%);
+    --card-height: 100%;
+    --img: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+    --img-height: 100%;
+    --img-width: 49%;
+    --img-position: 0 0;
+    --seccion: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+    --seccion-height: 9%;
+    --seccion-width: 15%;
+    --seccion-position: 61% 0;
+    --button: linear-gradient(to bottom, #dbdbdb 100%, transparent 0%);
+    --button-height: 9%;
+    --button-1-width: 3%;
+    --button-1-position: 100% 0%;
+    --button-2-width: 3%;
+    --button-2-position: 96% 0%;
+    --button-3-width: 3%;
+    --button-3-position: 92% 0%;
+    --title: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+    --title-height: 14%;
+    --title-1-width: 48%;
+    --title-1-position: 100% 20%;
+    --title-2-width: 38%;
+    --title-2-position: 84% 43%;
+    --subtitle: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+    --subtitle-height: 6%;
+    --subtitle-1-width: 48%;
+    --subtitle-1-position: 100% 62%;
+    --subtitle-2-width: 48%;
+    --subtitle-2-position: 100% 74%;
+    --subtitle-3-width: 30%;
+    --subtitle-3-position: 74% 86%;
+    --blur-width: 60%;
+    --blur-size: var(--blur-width) var(--card-height)
+}
+
+    .skeleton-seccionnota .skseccionnota:empty::after {
+        content: "";
+        display: block;
+        width: 97%;
+        margin: auto;
+        height: 210px;
+        -webkit-transition: all 0.6s ease;
+        -moz-transition: all 0.6s ease;
+        -o-transition: all 0.6s ease;
+        transition: all 0.6s ease;
+        background-image: linear-gradient(90deg, rgba(51, 51, 51, 0) 0, #ffffff45 50%, rgba(51, 51, 51, 0) 100%), var(--img), var(--seccion), var(--title), var(--title), var(--subtitle), var(--subtitle), var(--subtitle), var(--button), var(--button), var(--button), var(--card);
+        background-size: var(--blur-size), var(--img-width) var(--img-height), var(--seccion-width) var(--seccion-height), var(--title-1-width) var(--title-height), var(--title-2-width) var(--title-height), var(--subtitle-1-width) var(--subtitle-height), var(--subtitle-2-width) var(--subtitle-height), var(--subtitle-3-width) var(--subtitle-height), var(--button-1-width) var(--button-height), var(--button-2-width) var(--button-height), var(--button-3-width) var(--button-height), 100% 100%;
+        background-position: -150% 0, var(--img-position), var(--seccion-position), var(--title-1-position), var(--title-2-position), var(--subtitle-1-position), var(--subtitle-2-position), var(--subtitle-3-position), var(--button-1-position), var(--button-2-position), var(--button-3-position), 0 0;
+        background-repeat: no-repeat;
+        animation: loading 1.9s infinite linear;
+    }
+/* ///////// NOTICIA /////////*/
+.skeleton-noticia {
+    --card: linear-gradient(to bottom, #ffffff00 100%, transparent 0%);
+    --card-height: 100%;
+    --img: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+    --img-height: 55%;
+    --img-width: 100%;
+    --img-position: 0 0;
+    --seccion: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+    --seccion-height: 4%;
+    --seccion-width: 40%;
+    --seccion-position: 0% 60%;
+    --title: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+    --title-height: 8%;
+    --title-1-width: 100%;
+    --title-1-position: 0 69%;
+    --title-2-width: 70%;
+    --title-2-position: 0 80%;
+    --subtitle: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+    --subtitle-height: 3%;
+    --subtitle-1-width: 100%;
+    --subtitle-1-position: 0 88%;
+    --subtitle-2-width: 100%;
+    --subtitle-2-position: 0 94%;
+    --subtitle-3-width: 70%;
+    --subtitle-3-position: 0% 100%;
+    --blur-width: 60%;
+    --blur-size: var(--blur-width) var(--card-height);
+}
+
+    .skeleton-noticia .sknoticia:empty::after {
+        content: "";
+        display: block;
+        width: 94%;
+        margin: auto;
+        height: 600px;
+        -webkit-transition: all 0.6s ease;
+        -moz-transition: all 0.6s ease;
+        -o-transition: all 0.6s ease;
+        transition: all 0.6s ease;
+        background-image: linear-gradient(90deg, rgba(51, 51, 51, 0) 0, #ffffffc2 50%, rgba(51, 51, 51, 0) 100%), var(--img), var(--seccion), var(--title), var(--title), var(--subtitle), var(--subtitle), var(--subtitle), var(--card);
+        background-size: var(--blur-size), var(--img-width) var(--img-height), var(--seccion-width) var(--seccion-height), var(--title-1-width) var(--title-height), var(--title-2-width) var(--title-height), var(--subtitle-1-width) var(--subtitle-height), var(--subtitle-2-width) var(--subtitle-height), var(--subtitle-3-width) var(--subtitle-height), 100% 100%;
+        background-position: -150% 0, var(--img-position), var(--seccion-position), var(--title-1-position), var(--title-2-position), var(--subtitle-1-position), var(--subtitle-2-position), var(--subtitle-3-position), 0 0;
+        background-repeat: no-repeat;
+        animation: 2s linear infinite;
+    }
+/* ///////// TEXTO /////////*/
+.skeleton-texto {
+    --card: linear-gradient(to bottom, #ffffff00 100%, transparent 0%);
+    --card-height: 100%;
+    --img: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+    --img-height: 3%;
+    --img-width: 100%;
+    --img-position: 0 0%;
+    --seccion: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+    --seccion-height: 3%;
+    --seccion-width: 96%;
+    --seccion-position: 0 9%;
+    --button: linear-gradient(to bottom, #dbdbdb 100%, transparent 0%);
+    --button-height: 3%;
+    --button-1-width: 94%;
+    --button-1-position: 0 18%;
+    --button-2-width: 97%;
+    --button-2-position: 0 27%;
+    --button-3-width: 100%;
+    --button-3-position: 0 36%;
+    --title: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+    --title-height: 3%;
+    --title-1-width: 97%;
+    --title-1-position: 0 63%;
+    --title-2-width: 100%;
+    --title-2-position: 0 72%;
+    --subtitle: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+    --subtitle-height: 3%;
+    --subtitle-1-width: 98%;
+    --subtitle-1-position: 0 82%;
+    --subtitle-2-width: 100%;
+    --subtitle-2-position: 0 91%;
+    --subtitle-3-width: 40%;
+    --subtitle-3-position: 0 100%;
+    --blur-width: 60%;
+    --blur-size: var(--blur-width) var(--card-height)
+}
+
+    .skeleton-texto .sktexto:empty::after {
+        content: "";
+        display: block;
+        width: 94%;
+        margin: auto;
+        height: 425px;
+        -webkit-transition: all 0.6s ease;
+        -moz-transition: all 0.6s ease;
+        -o-transition: all 0.6s ease;
+        transition: all 0.6s ease;
+        background-image: linear-gradient(90deg, rgba(51, 51, 51, 0) 0, #ffffff45 50%, rgba(51, 51, 51, 0) 100%), var(--img), var(--seccion), var(--title), var(--title), var(--subtitle), var(--subtitle), var(--subtitle), var(--button), var(--button), var(--button), var(--card);
+        background-size: var(--blur-size), var(--img-width) var(--img-height), var(--seccion-width) var(--seccion-height), var(--title-1-width) var(--title-height), var(--title-2-width) var(--title-height), var(--subtitle-1-width) var(--subtitle-height), var(--subtitle-2-width) var(--subtitle-height), var(--subtitle-3-width) var(--subtitle-height), var(--button-1-width) var(--button-height), var(--button-2-width) var(--button-height), var(--button-3-width) var(--button-height), 100% 100%;
+        background-position: -150% 0, var(--img-position), var(--seccion-position), var(--title-1-position), var(--title-2-position), var(--subtitle-1-position), var(--subtitle-2-position), var(--subtitle-3-position), var(--button-1-position), var(--button-2-position), var(--button-3-position), 0 0;
+        background-repeat: no-repeat;
+        animation: loading 1.9s infinite linear;
+    }
+/* ///////// REDES /////////*/
+.skeleton-redes {
+    --card: linear-gradient(to bottom, #ffffff00 100%, transparent 0%);
+    --card-height: 100%;
+    --img: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+    --img-height: 60%;
+    --img-width: 20%;
+    --img-position: 0 20%;
+    --seccion: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+    --seccion-height: 1%;
+    --seccion-width: 100%;
+    --seccion-position: 0% 0%;
+    --button: linear-gradient(to bottom, #dbdbdb 100%, transparent 0%);
+    --button-height: 20%;
+    --button-1-width: 7%;
+    --button-1-position: 0 100%;
+    --button-2-width: 7%;
+    --button-2-position: 10% 100%;
+    --button-3-width: 7%;
+    --button-3-position: 20% 100%;
+    --title: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+    --title-height: 8%;
+    --title-1-width: 50%;
+    --title-1-position: 50% 25%;
+    --title-2-width: 40%;
+    --title-2-position: 42% 40%;
+    --subtitle: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+    --subtitle-height: 20%;
+    --subtitle-1-width: 7%;
+    --subtitle-1-position: 30% 100%;
+    --subtitle-2-width: 7%;
+    --subtitle-2-position: 40% 100%;
+    --subtitle-3-width: 7%;
+    --subtitle-3-position: 50% 100%;
+    --blur-width: 60%;
+    --blur-size: var(--blur-width) var(--card-height)
+}
+
+    .skeleton-redes .skredes:empty::after {
+        content: "";
+        display: block;
+        width: 93%;
+        margin: 6% auto;
+        height: 200px;
+        -webkit-transition: all 0.6s ease;
+        -moz-transition: all 0.6s ease;
+        -o-transition: all 0.6s ease;
+        transition: all 0.6s ease;
+        background-image: linear-gradient(90deg, rgba(51, 51, 51, 0) 0, #ffffff45 50%, rgba(51, 51, 51, 0) 100%), var(--img), var(--seccion), var(--title), var(--title), var(--subtitle), var(--subtitle), var(--subtitle), var(--button), var(--button), var(--button), var(--card);
+        background-size: var(--blur-size), var(--img-width) var(--img-height), var(--seccion-width) var(--seccion-height), var(--title-1-width) var(--title-height), var(--title-2-width) var(--title-height), var(--subtitle-1-width) var(--subtitle-height), var(--subtitle-2-width) var(--subtitle-height), var(--subtitle-3-width) var(--subtitle-height), var(--button-1-width) var(--button-height), var(--button-2-width) var(--button-height), var(--button-3-width) var(--button-height), 100% 100%;
+        background-position: -150% 0, var(--img-position), var(--seccion-position), var(--title-1-position), var(--title-2-position), var(--subtitle-1-position), var(--subtitle-2-position), var(--subtitle-3-position), var(--button-1-position), var(--button-2-position), var(--button-3-position), 0 0;
+        background-repeat: no-repeat;
+        animation: loading 1.9s infinite linear;
+    }
+/* ///////// MEDIAQUERY /////////*/
+@media only screen and (max-width: 1000px) {
+    .skeleton-destacada .skdestacada:empty::after {
+        height: 370px;
+    }
+
+    .skeleton-nota .sknota:empty::after {
+        height: 370px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .skeleton-destacada .skdestacada:empty::after {
+        height: 360px;
+    }
+
+    .skeleton-nota .sknota:empty::after {
+        height: 360px;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .skeleton-header .skheader:empty::after {
+        width: 100%;
+        height: 60px;
+    }
+
+    .skeleton-header {
+        --card: linear-gradient(to bottom, #ffffff00 100%, transparent 0%);
+        --card-height: 100%;
+        --img: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+        --img-height: 100%;
+        --img-width: 53%;
+        --img-position: 20% 15%;
+        --seccion: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+        --seccion-height: 10%;
+        --seccion-width: 100%;
+        --seccion-position: 100% 100%;
+        --button: linear-gradient(to bottom, #dbdbdb 100%, transparent 0%);
+        --button-height: 100%;
+        --button-1-width: 6.5%;
+        --button-1-position: 100% 8%;
+        --button-2-width: 6.5%;
+        --button-2-position: 92% 8%;
+        --button-3-width: 6.5%;
+        --button-3-position: 84% 8%;
+        --title: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+        --title-height: 100%;
+        --title-1-width: 6.5%;
+        --title-1-position: 76% 8%;
+        --title-2-width: 6.5%;
+        --title-2-position: 68% 8%;
+        --subtitle: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+        --subtitle-height: 10%;
+        --subtitle-1-width: 6%;
+        --subtitle-1-position: 2% 25%;
+        --subtitle-2-width: 6%;
+        --subtitle-2-position: 2% 50%;
+        --subtitle-3-width: 6%;
+        --subtitle-3-position: 2% 75%;
+        --blur-width: 60%;
+        --blur-size: var(--blur-width) var(--card-height)
+    }
+
+    .skeleton-titular .sktitular:empty::after {
+        width: 100%;
+        height: 260px;
+    }
+
+    .skeleton-titular {
+        --card: linear-gradient(to bottom, #ffffff00 100%, transparent 0%);
+        --card-height: 100%;
+        --img-height: 100%;
+        --img-width: 58%;
+        --img-position: 0 0;
+        --title-height: 9%;
+        --title-1-width: 40%;
+        --title-1-position: 100% 0;
+        --title-2-width: 40%;
+        --title-2-position: 100% 16%;
+        --subtitle-height: 6%;
+        --subtitle-1-width: 40%;
+        --subtitle-1-position: 100% 33%;
+        --subtitle-2-width: 40%;
+        --subtitle-2-position: 100% 46%;
+        --subtitle-3-width: 29%;
+        --subtitle-3-position: 85% 59%;
+    }
+
+    .skeleton-seccionnota .skseccionnota:empty::after {
+        width: 97%;
+        height: 350px;
+    }
+
+    .skeleton-seccionnota {
+        --card: linear-gradient(to bottom, #ffffff00 100%, transparent 0%);
+        --card-height: 100%;
+        --img: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+        --img-height: 55%;
+        --img-width: 100%;
+        --img-position: 0 0;
+        --seccion: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+        --seccion-height: 4%;
+        --seccion-width: 25%;
+        --seccion-position: 0% 62%;
+        --button: linear-gradient(to bottom, #dbdbdb 100%, transparent 0%);
+        --button-height: 4%;
+        --button-1-width: 3%;
+        --button-1-position: 100% 62%;
+        --button-2-width: 3%;
+        --button-2-position: 96% 62%;
+        --button-3-width: 3%;
+        --button-3-position: 92% 62%;
+        --title: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+        --title-height: 6%;
+        --title-1-width: 100%;
+        --title-1-position: 0 72%;
+        --title-2-width: 80%;
+        --title-2-position: 0 81%;
+        --subtitle: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+        --subtitle-height: 3%;
+        --subtitle-1-width: 100%;
+        --subtitle-1-position: 0 88%;
+        --subtitle-2-width: 100%;
+        --subtitle-2-position: 0 94%;
+        --subtitle-3-width: 40%;
+        --subtitle-3-position: 0 100%;
+        --blur-width: 60%;
+        --blur-size: var(--blur-width) var(--card-height)
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .skeleton-destacada .skdestacada:empty::after {
+        height: 300px;
+    }
+
+    .skeleton-nota .sknota:empty::after {
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .skeleton-destacada .skdestacada:empty::after {
+        height: 300px;
+    }
+
+    .skeleton-nota .sknota:empty::after {
+        height: 300px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .skeleton-destacada .skdestacada:empty::after {
+        height: 160px !important;
+        width: 96%;
+        margin: 10px auto;
+    }
+
+    .skeleton-destacada {
+        --card: linear-gradient(to bottom, #ffffff00 100%, transparent 0%);
+        --card-height: 100%;
+        --img: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+        --img-height: 100%;
+        --img-width: 50%;
+        --img-position: 0 0;
+        --seccion: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+        --seccion-height: 8%;
+        --seccion-width: 20%;
+        --seccion-position: 67% 0;
+        --button: linear-gradient(to bottom, #dbdbdb 100%, transparent 0%);
+        --button-height: 8%;
+        --button-1-width: 4%;
+        --button-1-position: 100% 0;
+        --button-2-width: 4%;
+        --button-2-position: 94% 0;
+        --button-3-width: 4%;
+        --button-3-position: 88% 0;
+        --title: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+        --title-height: 12%;
+        --title-1-width: 46%;
+        --title-1-position: 100% 20%;
+        --title-2-width: 32%;
+        --title-2-position: 80% 40%;
+        --subtitle: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+        --subtitle-height: 9%;
+        --subtitle-1-width: 46%;
+        --subtitle-1-position: 100% 60%;
+        --subtitle-2-width: 46%;
+        --subtitle-2-position: 100% 80%;
+        --subtitle-3-width: 35%;
+        --subtitle-3-position: 83% 100%;
+        --blur-width: 60%;
+        --blur-size: var(--blur-width) var(--card-height);
+    }
+
+    .skeleton-nota .sknota:empty::after {
+        height: 160px !important;
+        width: 96%;
+        margin: 10px auto;
+    }
+
+    .skeleton-nota {
+        --card: linear-gradient(to bottom, #ffffff00 100%, transparent 0%);
+        --card-height: 100%;
+        --img: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+        --img-height: 100%;
+        --img-width: 50%;
+        --img-position: 0 0;
+        --seccion: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+        --seccion-height: 8%;
+        --seccion-width: 20%;
+        --seccion-position: 67% 0;
+        --button: linear-gradient(to bottom, #dbdbdb 100%, transparent 0%);
+        --button-height: 8%;
+        --button-1-width: 4%;
+        --button-1-position: 100% 0;
+        --button-2-width: 4%;
+        --button-2-position: 94% 0;
+        --button-3-width: 4%;
+        --button-3-position: 88% 0;
+        --title: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+        --title-height: 12%;
+        --title-1-width: 46%;
+        --title-1-position: 100% 20%;
+        --title-2-width: 32%;
+        --title-2-position: 80% 40%;
+        --subtitle: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+        --subtitle-height: 9%;
+        --subtitle-1-width: 46%;
+        --subtitle-1-position: 100% 60%;
+        --subtitle-2-width: 46%;
+        --subtitle-2-position: 100% 80%;
+        --subtitle-3-width: 35%;
+        --subtitle-3-position: 83% 100%;
+        --blur-width: 60%;
+        --blur-size: var(--blur-width) var(--card-height);
+    }
+
+    .skeleton-titular .sktitular:empty::after {
+        width: 100%;
+        height: 360px;
+    }
+
+    .skeleton-titular {
+        --card: linear-gradient(to bottom, #ffffff00 100%, transparent 0%);
+        --card-height: 100%;
+        --img-height: 70%;
+        --img-width: 100%;
+        --img-position: 0 0;
+        --title-height: 9%;
+        --title-1-width: 100%;
+        --title-1-position: 0 40%;
+        --title-2-width: 100%;
+        --title-2-position: 0 50%;
+        --subtitle-height: 6%;
+        --subtitle-1-width: 100%;
+        --subtitle-1-position: 0 80%;
+        --subtitle-2-width: 100%;
+        --subtitle-2-position: 100% 90%;
+        --subtitle-3-width: 60%;
+        --subtitle-3-position: 0 100%;
+    }
+
+    .skeleton-publicaciones .skpublicaciones:empty::after {
+        width: 96%;
+        height: 425px;
+    }
+
+    .skeleton-publicaciones {
+        --card: linear-gradient(to bottom, #ffffff00 100%, transparent 0%);
+        --card-height: 100%;
+        --img: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+        --img-height: 45%;
+        --img-width: 100%;
+        --img-position: 0 17%;
+        --seccion: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+        --seccion-height: 6%;
+        --seccion-width: 60%;
+        --seccion-position: 0 0%;
+        --button: linear-gradient(to bottom, #dbdbdb 100%, transparent 0%);
+        --button-height: 13%;
+        --button-1-width: 48%;
+        --button-1-position: 0 66%;
+        --button-2-width: 48%;
+        --button-2-position: 0 83%;
+        --button-3-width: 48%;
+        --button-3-position: 0 100%;
+        --subtitle: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+        --subtitle-height: 13%;
+        --subtitle-1-width: 48%;
+        --subtitle-1-position: 100% 66%;
+        --subtitle-2-width: 48%;
+        --subtitle-2-position: 100% 83%;
+        --subtitle-3-width: 48%;
+        --subtitle-3-position: 100% 100%;
+        --blur-width: 60%;
+        --blur-size: var(--blur-width) var(--card-height)
+    }
+
+    .skeleton-seccionnota .skseccionnota:empty::after {
+        height: 200px !important;
+        width: 96%;
+        margin: 10px auto;
+    }
+
+    .skeleton-seccionnota {
+        --card: linear-gradient(to bottom, #ffffff00 100%, transparent 0%);
+        --card-height: 100%;
+        --img: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+        --img-height: 100%;
+        --img-width: 49%;
+        --img-position: 0 0;
+        --seccion: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+        --seccion-height: 9%;
+        --seccion-width: 15%;
+        --seccion-position: 61% 0;
+        --button: linear-gradient(to bottom, #dbdbdb 100%, transparent 0%);
+        --button-height: 9%;
+        --button-1-width: 5%;
+        --button-1-position: 100% 0%;
+        --button-2-width: 5%;
+        --button-2-position: 93% 0%;
+        --button-3-width: 5%;
+        --button-3-position: 86% 0%;
+        --title: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+        --title-height: 14%;
+        --title-1-width: 48%;
+        --title-1-position: 100% 20%;
+        --title-2-width: 38%;
+        --title-2-position: 84% 43%;
+        --subtitle: linear-gradient(to right, #dbdbdb 100%, transparent 0%);
+        --subtitle-height: 6%;
+        --subtitle-1-width: 48%;
+        --subtitle-1-position: 100% 62%;
+        --subtitle-2-width: 48%;
+        --subtitle-2-position: 100% 74%;
+        --subtitle-3-width: 30%;
+        --subtitle-3-position: 74% 86%;
+        --blur-width: 60%;
+        --blur-size: var(--blur-width) var(--card-height)
+    }
+}
